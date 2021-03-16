@@ -1,0 +1,37 @@
+
+\section*{Ecosistema} % Esto antes se llamaba antecedentes ivaciones paralelasun titulo más serio sería: activaciones paralelas
+
+El proyecto inició con la exploración de plataformas que permitieran realizar conciertos audiovisuales en el navegador con entornos tridimensionales. Los puntos de partida fueron: audio y video transmitido en tiempo real y la posibilidad de posicionar pantallas, audio, avatares y escenarios en el espacio. La alusión a las plataformas que compartieron ecosistema con \textit{Panorama} se delimita proyectos con cercanía performática, la mayoría de ellos escritos en la Ciudad de México. 
+
+En el contexto de la programación al vuelo o \textit{Live Coding}, los Algoraves organizados por \textit{Algo:ritmi}\footnote{\url{https://www.facebook.com/AlgoritmiTorino/about/}} iniciaron el interés por los espacios tridimensionales de realidad virtual para lidiar con el distanciamiento social de la pandemia. Estos eventos tuvieron lugar en Mozilla Hubs\footnote{https://hubs.mozilla.com/}. Esta plataforma resuelve el backend de la experiencia y permite al diseñador de espacio centrarse en el frontend, el montaje del escenario al que acceden los usuarios. El diseño de espacios de arquitecturas colosales fue un rasgo distintivo de estos eventos. 
+
+Para el caso de la comunidad creativa en México, algunos otros casos de implementación de espacios virtuales en situaciones de concierto fueron propuestas por TOPLAP México. De manera similar a Algo:ritmi, Algoraves eventos relacionados con la escena de la programación al vuelo\footnote{TOPLAP México: VR Algorave consultado en: \url{https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/}} fueron organizados en FabricaVR, la plataforma dedicada de TOPLAP México, con miras a sortear la suspensión de conciertos a causa de la pandemia. Cabe mencionar que ambos casos forman parte de comunidades que antes de la pandemia, realizaban conciertos con tecnologías de transmisión de audio y video\footnote{Véase: \url{https://www.youtube.com/c/Eulerroom/videos}}.% Nombres de las personas 
+
+Como consecuencia de estos eventos, otras plataformas cercanas a estas comunidades plantearon eventos similares. Como parte de una agenda de diversificación del software\footnote{citaaa}, en algunos otros eventos se planteó la resolución del mismo objetivo y en estrecha dependencia con las funcionalidades y objetivos planteados, fue necesario encargarse en menor o mayor medida de algunos módulos de los dos momentos detectados: front y backend.  
+
+Tal fue el caso de la plataforma OXXXO de Carlos Pesina que en co-participación con el festival Ceremonia permitió la realización de eventos digitales para afrontar la cancelación de conciertos presenciales.\footnote{La documentación es escasa. Ver: \url{https://www.instagram.com/p/B_bdw_TlrKa}, también: \url{https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321}}
+
+\textit{A-frame}, ``un marco de trabajo para construir experiencias de realidad virtual(VR)''\footnote{Consultado en: \url{https://aframe.io/docs/1.2.0/introduction/}} fue una solución alternativa. \textit{Sinestesia}\footnote{Laboratorio de Experimentación, Improvisación y Nuevos Medios. Consultado en: \url{https://www.instagram.com/si.nestes.ia/}} y \textit{ZeYX Lab}\footnote{\url{https://zeyxlab.com/}} implementaron este entorno. % hasta donde sabemos. Extender
+
+THREE.js\footnote{El proyecto de three.js apunta a la creación de una librería 3D fácil de usar, ligera, multinavegador, multipropósito. \url{https://threejs.org/}} fue otro \textit{framework} elegido para realizar este tipo de experiencias para el navegador. En este sentido destacamos el caso de \textit{Calindros} y .. de Hugo Solís. % Links caídos. Extender. Preguntar sobre el papel del juego 
+
+Finalmente, la \textit{federacion-de-codigo-al-vuelo}\footnote{\url{https://github.com/federacion-de-codigo-al-vuelo}} fue el parteaguas de algunas ideas centrales que desembocaron en \textit{Panorama} pero también en otros dos proyectos manejados por Rodrigo Frenk y Diego Villaseñor respectivamente: Zona hipermedial\footnote{? revisar si es cierto} y Camposónico\footnote{\url{https://github.com/diegovdc/camposonico}}. La experiencia de colaboración con la \textit{federación} permitió sentar las bases el entramado de módulos de código que pudieran resolver aspectos específicos. Adicionalmente al front y backend, fue necesario agregar un chat o alguna forma de escritura en tiempo real, la transmisión de gestos de un avatar que extiendieran las posibilidades de desplazamiento y movimiento corporal en el espacio. La búsqueda por un espacio personalizado de estas características tanto para \textit{PiranhaLab} como para \textit{federación} se estableció con el objetivo de resolver las problemáticas de rendimiento que las plataformas de alto nivel resolvían de una manera poco transparente. Cada proyecto encontro una solución acorde a las necesidades. 
+
+Para la transmisión de audio y video, las soluciones implican plataformas privativas de \textit{streaming} como \textit{YouTube} y \textit{Twitch}; plataformas para envío bidireccional de señales de audio como \textit{Sagora}, \textit{jacktrip} y \textit{Sonobus} y plataformas para el montaje de servidores de audio y video como \textit{Icecast} y \textit{FLV}. % falta hablar de másservicios privativos de streaming
+
+De la experiencia como asistentes, como ejecutantes y como incipientes investigadores/escritores de código en plataformas y eventos que implicaron estas resoluciones fue que el proyecto de \textit{PiranhaLab} empezó a delimitarse. adicionalmente, sugieron algunas cuestiones referentes a la observación e investigación de estos entornos, de las piezas que contienen e incluso del momento en el que espacio y pieza se desdibujan. 
+
+Los eventos realizados en esta diversidad de plataformas han utilizado ligas a internet que de acuerdo a la fecha consultada, redireccionan a distintos espacios virtuales. A diferencia de los sitios que utilizan texto y entornos de programación web como HTML, la mezcla de módulos y el uso de frameworks dedicados que utilizan renerizadores 3d como webGL, motores de audio como Web Audio API o plataformas de transmisión de audio y video personalizadas y efímeras dificultan la documentación convencional. La labor se complica cuando el mantenimiento de estos espacios sobrepasa los ealcances temporales o económicos del proyecto. El reto metodológico que esto supone es un asunto pendiente para las investigaciones que hacen referencia a tecnología. En este sentido, la referencia a repositorios de código públicos podrían arrojar soluciones para la documentación y arqueología de los desarrollos tecnológicos. % Indagar sobre esto
+
+\iffalse
+\item Exploración de plataformas terminadas                                                             
+\item Otros proyectos / espacios en otras plataformas. Recuento. Dos caras: el diseño del espacio y la forma en la que se gestiona la información (por ejemplo de chats o avatares )
+\item Italianos
+\item Federaves - hipermedial y espacio sonoro
+\item Carlos Pesina - three? aframe?                                                                 
+\item TOPLAP mx - mozilla hubs                                                                         
+\item Randall - aframe 
+\item Emmanuel et al
+\item Hugo 
+\item Soluciones de streaming. Menciones menores que los anteriores: Sagora, youtube, jacktrip, Sonobus
+\fi

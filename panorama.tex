@@ -1,0 +1,60 @@
+% Panorama
+
+% Un cuarto propio conectado. Remedios Zafra > Pdf revisar para referencias 
+
+\documentclass[12pt,letterpaper,draft, twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-notilde]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{endnotes}
+\usepackage{hyperref}
+\usepackage[sort&compress]{natbib}
+
+\renewcommand{\notesname}{Notas}
+
+\author{Marianne Teixido, Dorian Sotomayor, Emilio Ocelotl}
+%\title{Panorama. Tecnologías libres e inmersivas para el performance audiovisual}
+
+\title{%
+  Panorama \\
+  \large Tecnologías libres e inmersivas para el performance audiovisual}
+
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Palabras clave---}} #1
+}
+
+\let\footnote=\endnote
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+  \input{sections/abstract}
+  
+\end{abstract}
+
+\input{sections/keywords}
+
+\input{sections/introduccion}
+\input{sections/ecosistema}
+\input{sections/notasypruebas}
+\input{sections/contemplacion}
+\input{sections/three}
+\input{sections/conclusiones}
+
+\theendnotes % ¿Demasiadas notas? 
+
+\nocite{interactiveDigitalMusic}
+\nocite{speakingCode}
+
+\addcontentsline{toc}{chapter}{\protect\numberline{}Bibliografía}%
+\bibliography{bib/panBib}{}
+\bibliographystyle{apalike-es}
+
+\end{document}
