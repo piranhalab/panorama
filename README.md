@@ -1,9 +1,16 @@
-# Panorama. Tecnologías libres e inmersivas para el performance audiovisual. 
+# Panorama
+
+Tecnologías libres e inmersivas para el performance audiovisual
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
+## Requisitos
+
 - Instalar Endnotes
-- htlatex como solución para convertir a texto plano
+
+## Ejecución provisional
+
+`pdflatex -halt-on-error -output-directory out panorama.tex`
 
 ## Por hacer
 
