@@ -1,6 +1,6 @@
 # Panorama
 
-Tecnologías libres e inmersivas para el performance audiovisual
+Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
@@ -28,5 +28,5 @@ Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl
 
 ## Referencias
 
-- [Modelo IMRyD](https://www.lluiscodina.com/modelo-imryd) 
 - [latex-demo](https://github.com/rexmalebka/latex-demo) 
+- [Modelo IMRyD](https://www.lluiscodina.com/modelo-imryd) 
