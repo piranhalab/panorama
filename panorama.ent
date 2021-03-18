@@ -1,37 +1,82 @@
 \@doanenote {1}
-macro:->Repositorio
-de
-Panorama.
+macro:->Liga
+al
+repositorio
+pendiente.
 \@endanenote 
 \@doanenote {2}
-macro:->Tomado
+macro:->``PiranhaLab
+es
+un
+laboratorio
+interdisciplinario
+que
+trabaja
+en
+las
+tripas
+del
+software''.
+Tomado
+de:
+\url
+{https://piranhalab.github.io/}
+\@endanenote 
+\@doanenote {3}
+macro:->
+``Plataforma
+de
+experimentación
+y
+difusión
+de
+proyectos
+audiovisuales
+en
+vivo''
+impulsada
+por
+el
+Laboratorio
+de
+Imágenes
+en
+Movimiento
+del
+Centro
+Multimedia
+del
+Centro
+Nacional
+de
+las
+Artes.
+Tomado
 de:
 \url
 {https://www.facebook.com/events/209679013466792}
 \@endanenote 
-\@doanenote {3}
-macro:->Enlace:
-\url
+\@doanenote {4}
+macro:->\url
 {https://notasdeausencia.cc}
 \@endanenote 
-\@doanenote {4}
-macro:->Enlace:
-\url
-{https://edges.piranhalab.cc}
-\@endanenote 
 \@doanenote {5}
-macro:->Enlace:
-\url
-{https://threecln.piranhalab.cc}
+macro:->\url
+{https://edges.piranhalab.cc}
 \@endanenote 
 \@doanenote {6}
 macro:->\url
-{https://www.facebook.com/AlgoritmiTorino/about/}
+{https://threecln.piranhalab.cc}
 \@endanenote 
 \@doanenote {7}
-macro:->https://hubs.mozilla.com/
+macro:->\url
+{https://www.facebook.com/AlgoritmiTorino/about/}
 \@endanenote 
 \@doanenote {8}
+macro:->\url
+{https://hubs.mozilla.com/}
+\@endanenote 
+\@doanenote {9}
 macro:->TOPLAP
 México:
 VR
@@ -41,13 +86,10 @@ en:
 \url
 {https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/}
 \@endanenote 
-\@doanenote {9}
+\@doanenote {10}
 macro:->Véase:
 \url
 {https://www.youtube.com/c/Eulerroom/videos}
-\@endanenote 
-\@doanenote {10}
-macro:->citaaa
 \@endanenote 
 \@doanenote {11}
 macro:->La
@@ -62,19 +104,32 @@ también:
 {https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321}
 \@endanenote 
 \@doanenote {12}
-macro:->Consultado
+macro:->
+A-frame
+es
+``un
+marco
+de
+trabajo
+para
+construir
+experiencias
+de
+realidad
+virtual(VR)''.
+Consultado
 en:
 \url
 {https://aframe.io/docs/1.2.0/introduction/}
 \@endanenote 
 \@doanenote {13}
-macro:->Laboratorio
+macro:->``Laboratorio
 de
 Experimentación,
 Improvisación
 y
 Nuevos
-Medios.
+Medios''.
 Consultado
 en:
 \url
@@ -85,7 +140,7 @@ macro:->\url
 {https://zeyxlab.com/}
 \@endanenote 
 \@doanenote {15}
-macro:->El
+macro:->``El
 proyecto
 de
 three.js
@@ -102,7 +157,7 @@ de
 usar,
 ligera,
 multinavegador,
-multipropósito.
+multipropósito''.
 \url
 {https://threejs.org/}
 \@endanenote 
@@ -115,22 +170,22 @@ macro:->\url
 {https://github.com/federacion-de-codigo-al-vuelo}
 \@endanenote 
 \@doanenote {18}
-macro:->?
-revisar
-si
-es
-cierto
-\@endanenote 
-\@doanenote {19}
 macro:->\url
 {https://github.com/diegovdc/camposonico}
 \@endanenote 
-\@doanenote {20}
-macro:->Liga
-en
-Twitter
-al
-bot:
-\url
+\@doanenote {19}
+macro:->\url
 {https://twitter.com/notasausencia}
+\@endanenote 
+\@doanenote {20}
+macro:->\url
+{https://github.com/EmilioOcelotl/THREE.studies}
+\@endanenote 
+\@doanenote {21}
+macro:->\url
+{https://github.com/EmilioOcelotl/anti}
+\@endanenote 
+\@doanenote {22}
+macro:->\url
+{https://github.com/EmilioOcelotl/tres-estudios-abiertos}
 \@endanenote 

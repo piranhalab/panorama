@@ -1,0 +1,26 @@
+\section*{Diseño y escritura} % Aquí puede ir lo que escribió Dorian
+
+El diseño de \textit{Panorama} implicó:
+
+\begin{itemize}
+\item Escritura de una experiencia ligera (tiempo de carga y de experiencia) en lo que refiere al desplazamiento e interacción con otros usuarios en un espacio tridimensional. 
+\item Utilización sencilla, adaptables a distintos dispositivos y a la capacidad técnica de los usuarios.
+\item Transmisión audiovisual en vivo que permita simular la experiencia musical de conciertos para eventos no recurrentes y recurrentes. 
+\item Autonomía en el uso de recursos: registro no necesario y evasión del análisis del \textit{streaming} o de sistemas de cómputo para evitar problemas legales. 
+\item Sistemas fáciles de instalar y recrear en casos de requerir volver a instalar o escalar.
+\item Tecnologías normalizadas, no privativas de software libre principalmente.
+\item Generación de experiencias personalizadas que responden a las necesidades performativas, posibilidad futura abierta. 
+\end{itemize}
+
+\textit{Panorama} se escribió para entornos web ya que no requiere instalación de software extra, más allá de un navegador web común. Los avances en la tecnología web permiten la homogeneización de la experiencia y pueden abarcar una gran cantidad de público. El sistema utiliza WebGL para la renderización de imagen en el navegador. Este entorno permite la generación de espacios virtuales y tridimensionales donde se pueden alojar experiencias visuales, auditivas y presenciales. Javascript es el lenguaje principal del proyecto debido a su uso normalizado en navegadores web y aplicaciones web para conectar las partes del sistema entero.
+
+Three.js como framework permite la implementación de webGL y asegura la rápida codificación y reutilización de código. Además, es posible importar modelos hechos en programas de edición tridimensional, efectos y modelos de audio para la web con WebAudioAPI y conceptos convencionales y compartidos de materiales y geometrías relacionados a programas de modelado en tes dimensiones. Como un punto adicional, este marco de trabajo cuenta con documentación actualizada y constante. La implementación de WebAssembly ha permitido la generación de sistemas rápidos y eficientes, sin capas de abstracción de software.
+
+El diseño del módulo de streaming presentó una discusión sobre lo legal y el uso de recursos. Las restricciones que imponen los servidores privados al contenido remixeado fue una de las motivaciones para implementar un sistema personalizado. De esta manera, el sistema evita el mercado exclusivo de servicios de streaming privados, con licencias de paga o limitados. De manera complementaria, el sistema de \textit{streaming} personalizado permite controlar la cantidad de recursos usados y  de usuarios conectados. Los formatos explorados fueron: RTMP, FLV, HLS, video a través de WebSockets, WebRTC y MPEG-DASH.
+
+Las características actuales presentes en html5 permiten utilizar formatos de streaming no nativos con \textit{frameworks} de decodificación para el despliegue de video en formatos soportados por el navegador. \textit{Panorama} utiliza RTMP debido a 1) la robustez del protocolo,2) la rapidez de transmisión de datos, 3) la documentación que existe sobre NGINX RTMP y 4) el uso de FFMPEG para la recodificación y redimensión de video en la web. La plataforma utiliza FLV debido a la velocidad del protocolo (no se descarta el uso de otros protocolos. Para el uso de FLV en el navegador, se utilizó FLV.js. 
+
+
+Para la interacción entre usuarios se utilizó WebSockets. Esto implicó: 1) uso de chat, 2) compartición en tiempo real de eventos gestuales (rotación y posición) del avatar utilizado y 3) personalización de modelo, textura y nombre de cada usuario. 
+
+Del lado del servidor  se usaron balanceadores de carga junto con modelos de configuración para la instalación y eliminación de recursos, haciendo independientes los servidores dedicados al \textit{streaming} y a servicios web. Esto permite que los espacios puedan ser escritos y eliminados.

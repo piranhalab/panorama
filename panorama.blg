@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: panorama.aux
+The style file: apalike-es.bst
+Database file #1: bib/panBib.bib
+You've used 2 entries,
+            1977 wiz_defined-function locations,
+            501 strings with 4147 characters,
+and the built_in function-call counts, 773 in all, are:
+= -- 75
+> -- 31
+< -- 1
++ -- 10
+- -- 10
+* -- 64
+:= -- 139
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 14
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 28
+empty$ -- 54
+format.name$ -- 15
+if$ -- 148
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 13
+num.names$ -- 6
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 49
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 6
+width$ -- 0
+write$ -- 27

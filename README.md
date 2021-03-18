@@ -23,7 +23,10 @@ Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl
 - [ ] Decidir si en notas van los sitios activados y en referencias el repositorio 
 - [ ] Incorporar automation 
 - [ ] Actualización bibtex
+- [ ] Diferenciar introducción y ecosistema 
+- [ ] ¿Nota explicativa para cada módulo de software? 
 
 ## Referencias
 
+- [Modelo IMRyD](https://www.lluiscodina.com/modelo-imryd) 
 - [latex-demo](https://github.com/rexmalebka/latex-demo) 

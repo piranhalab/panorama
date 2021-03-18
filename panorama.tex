@@ -2,17 +2,26 @@
 
 % Un cuarto propio conectado. Remedios Zafra > Pdf revisar para referencias 
 
-\documentclass[12pt,letterpaper,draft, twocolumn]{article}
+\documentclass[12pt,letterpaper, twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish, es-notilde]{babel}
+\usepackage{endnotes}
+\usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{endnotes}
-\usepackage{hyperref}
 \usepackage[sort&compress]{natbib}
 
 \renewcommand{\notesname}{Notas}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=magenta,
+}
+
+\urlstyle{same}
 
 \author{Marianne Teixido, Dorian Sotomayor, Emilio Ocelotl}
 %\title{Panorama. Tecnologías libres e inmersivas para el performance audiovisual}
@@ -34,19 +43,21 @@
 \maketitle
 
 \begin{abstract}
-
   \input{sections/abstract}
-  
 \end{abstract}
 
 \input{sections/keywords}
 
-\input{sections/introduccion}
-\input{sections/ecosistema}
-\input{sections/notasypruebas}
-\input{sections/contemplacion}
-\input{sections/three}
-\input{sections/conclusiones}
+% Estructura ideal. Tomado de: https://www.lluiscodina.com/modelo-imryd/
+
+\input{sections/introduccion} % Introducción. Desplazar antecedentes para la introducción 
+\input{sections/ecosistema} % Introducción y ecosistema es lo mismo
+\input{sections/metodologia} % Aquí tiene que ir la descripción del sistema, esto está esbozado al final de ecosistema 
+\input{sections/notasypruebas} % Resultados
+\input{sections/contemplacion} % Resultados
+\input{sections/three} % Resultados 
+\input{sections/discusion} % nuevo, diferenciar de conclusiones
+\input{sections/conclusiones}  
 
 \theendnotes % ¿Demasiadas notas? 
 
