@@ -6,9 +6,61 @@ Bown, O., Eldridge, A., y Mccormack, J. (2009).
   instruments to behavioural objects.
 \newblock {\em Org. Sound}, 14(2):188--196.
 
+\bibitem[Collins \textit{et al.}, 2003]{collinsLivecoding}
+Collins, N., McLean, A., Rohruber, J., y Ward, A. (2003).
+\newblock Live coding techniques for laptop performance.
+\newblock {\em Organised Sound}, 8(3).
+
 \bibitem[Cox y McLean, 2012]{speakingCode}
 Cox, G. y McLean, A. (2012).
 \newblock {\em Speaking Code: Coding as Aesthetic and Political Expression}.
 \newblock The MIT Press.
+
+\bibitem[diegodvc, 2020]{camposonico}
+diegodvc (2020).
+\newblock Camposonico.
+\newblock \url{https://github.com/diegovdc/camposonico}.
+
+\bibitem[EmilioOcelotl, 2020a]{anti}
+EmilioOcelotl (2020a).
+\newblock anti.
+\newblock \url{https://github.com/EmilioOcelotl/anti}.
+
+\bibitem[EmilioOcelotl, 2020b]{threestudies}
+EmilioOcelotl (2020b).
+\newblock Three.studies.
+\newblock \url{https://github.com/EmilioOcelotl/THREE.studies}.
+
+\bibitem[EmilioOcelotl, 2020c]{tresestudios}
+EmilioOcelotl (2020c).
+\newblock tres-estudios-abiertos.
+\newblock \url{https://github.com/EmilioOcelotl/tres-estudios-abiertos}.
+
+\bibitem[federaciondecodigoalvuelo, 2020]{en-vivo}
+federaciondecodigoalvuelo (2020).
+\newblock en-vivo.
+\newblock \url{https://github.com/federacion-de-codigo-al-vuelo/en-vivo}.
+
+\bibitem[Feminist-Server-Summit, 2014]{feministserver}
+Feminist-Server-Summit (2014).
+\newblock A feminist server manifesto 0.01.
+\newblock
+  \url{https://areyoubeingserved.constantvzw.org/Summit_afterlife.xhtml}.
+
+\bibitem[MarianneTeixido, 2020]{notasdeausencia}
+MarianneTeixido (2020).
+\newblock notasdeausencia.
+\newblock \url{https://github.com/MarianneTeixido/notasdeausencia}.
+
+\bibitem[rexmalebka, 2020]{panorama}
+rexmalebka (2020).
+\newblock p2p-game-networking.
+\newblock \url{https://github.com/rexmalebka/p2p-game-networking}.
+
+\bibitem[Zafra, 2020]{cuartopropio}
+Zafra, R. (2020).
+\newblock Un cuarto propio conectado. feminismo y creación desde la esfera
+  público-privada online.
+\newblock \url{https://www.remedioszafra.net/text_rzafra10.pdf}.
 
 \end{thebibliography}

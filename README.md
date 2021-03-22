@@ -4,6 +4,25 @@ Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
+## Resumen
+
+El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gestores, instituciones públicas e industrias a replantear maneras de compartir flujos co-presenciales y hacer performance audiovisual en vivo.
+
+El presente artículo describe \textit{Panorama}, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
+
+## Estructura
+
+- Resumen
+- Ecosistema - introducción
+- Diseño y escritura - metodología
+- Notas y pruebas - resultados
+- Contemplación y EDGES - resultados 
+- threecln y 4nt1 - resultados
+- Discusión
+- Conclusiones
+- Notas
+- Referencias 
+
 ## Requisitos
 
 - Instalar Endnotes
@@ -19,14 +38,16 @@ Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl
 - [ ] Escribirle a lxs de ecosistemas.
 - [ ] Descripciones menos genéricas para las piezas. 
 - [ ] Citas y referencias.
-- [ ] Convenciones de citación para repositorios. Equipo código y texto general 
-- [ ] Decidir si en notas van los sitios activados y en referencias el repositorio 
+- [x] Convenciones de citación para repositorios. Equipo código y texto general 
+- [x] Decidir si en notas van los sitios activados y en referencias el repositorio 
 - [ ] Incorporar automation 
 - [ ] Actualización bibtex
-- [ ] Diferenciar introducción y ecosistema 
-- [ ] ¿Nota explicativa para cada módulo de software? 
+- [x] Diferenciar introducción y ecosistema 
+- [x] ¿Nota explicativa para cada módulo de software? 
 
 ## Referencias
 
 - [latex-demo](https://github.com/rexmalebka/latex-demo) 
 - [Modelo IMRyD](https://www.lluiscodina.com/modelo-imryd) 
+- [Academic writing](https://www.unaminternacional.unam.mx/academic-writing)
+- [How do you cite a Github repository](https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository) 

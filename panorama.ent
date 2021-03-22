@@ -1,10 +1,4 @@
 \@doanenote {1}
-macro:->Liga
-al
-repositorio
-pendiente.
-\@endanenote 
-\@doanenote {2}
 macro:->``PiranhaLab
 es
 un
@@ -22,7 +16,7 @@ de:
 \url
 {https://piranhalab.github.io/}
 \@endanenote 
-\@doanenote {3}
+\@doanenote {2}
 macro:->
 ``Plataforma
 de
@@ -56,27 +50,27 @@ de:
 \url
 {https://www.facebook.com/events/209679013466792}
 \@endanenote 
-\@doanenote {4}
+\@doanenote {3}
 macro:->\url
 {https://notasdeausencia.cc}
 \@endanenote 
-\@doanenote {5}
+\@doanenote {4}
 macro:->\url
 {https://edges.piranhalab.cc}
 \@endanenote 
-\@doanenote {6}
+\@doanenote {5}
 macro:->\url
 {https://threecln.piranhalab.cc}
 \@endanenote 
-\@doanenote {7}
+\@doanenote {6}
 macro:->\url
 {https://www.facebook.com/AlgoritmiTorino/about/}
 \@endanenote 
-\@doanenote {8}
+\@doanenote {7}
 macro:->\url
 {https://hubs.mozilla.com/}
 \@endanenote 
-\@doanenote {9}
+\@doanenote {8}
 macro:->TOPLAP
 México:
 VR
@@ -86,12 +80,12 @@ en:
 \url
 {https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/}
 \@endanenote 
-\@doanenote {10}
+\@doanenote {9}
 macro:->Véase:
 \url
 {https://www.youtube.com/c/Eulerroom/videos}
 \@endanenote 
-\@doanenote {11}
+\@doanenote {10}
 macro:->La
 documentación
 es
@@ -103,7 +97,7 @@ también:
 \url
 {https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321}
 \@endanenote 
-\@doanenote {12}
+\@doanenote {11}
 macro:->
 A-frame
 es
@@ -122,7 +116,7 @@ en:
 \url
 {https://aframe.io/docs/1.2.0/introduction/}
 \@endanenote 
-\@doanenote {13}
+\@doanenote {12}
 macro:->``Laboratorio
 de
 Experimentación,
@@ -135,11 +129,11 @@ en:
 \url
 {https://www.instagram.com/si.nestes.ia/}
 \@endanenote 
-\@doanenote {14}
+\@doanenote {13}
 macro:->\url
 {https://zeyxlab.com/}
 \@endanenote 
-\@doanenote {15}
+\@doanenote {14}
 macro:->``El
 proyecto
 de
@@ -161,31 +155,96 @@ multipropósito''.
 \url
 {https://threejs.org/}
 \@endanenote 
-\@doanenote {16}
+\@doanenote {15}
 macro:->\url
 {https://calindros.site/}
 \@endanenote 
+\@doanenote {16}
+macro:->Renderizador
+de
+gráficos
+para
+el
+navegador.
+\url
+{https://www.khronos.org/webgl/}
+\@endanenote 
 \@doanenote {17}
-macro:->\url
-{https://github.com/federacion-de-codigo-al-vuelo}
+macro:->``La
+API
+de
+Audio
+Web
+provee
+un
+sistema
+poderoso
+y
+versatil
+para
+controlar
+audio
+en
+la
+Web,
+permitiendo
+a
+los
+desarrolladores
+escoger
+fuentes
+de
+audio,
+agregar
+efectos
+al
+audio,
+crear
+visualizaciones
+de
+audios,
+aplicar
+efectos
+espaciales
+(como
+paneo)
+y
+mucho
+más.''
+Tomado
+de:
+\url
+{https://developer.mozilla.org/es/docs/Web/API/Web_Audio_API}
 \@endanenote 
 \@doanenote {18}
-macro:->\url
-{https://github.com/diegovdc/camposonico}
+macro:->``WebSockets
+es
+una
+tecnología
+avanzada
+que
+hace
+posible
+abrir
+una
+sesión
+de
+comunicación
+interactiva
+entre
+el
+navegador
+del
+usuario
+y
+un
+servidor.''
+Tomado
+de:
+\url
+{https://developer.mozilla.org/es/docs/Web/API/WebSockets_API}
 \@endanenote 
 \@doanenote {19}
 macro:->\url
 {https://twitter.com/notasausencia}
-\@endanenote 
-\@doanenote {20}
-macro:->\url
-{https://github.com/EmilioOcelotl/THREE.studies}
-\@endanenote 
-\@doanenote {21}
-macro:->\url
-{https://github.com/EmilioOcelotl/anti}
-\@endanenote 
-\@doanenote {22}
-macro:->\url
-{https://github.com/EmilioOcelotl/tres-estudios-abiertos}
 \@endanenote 

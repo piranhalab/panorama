@@ -3,44 +3,104 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: panorama.aux
 The style file: apalike-es.bst
 Database file #1: bib/panBib.bib
-You've used 2 entries,
+You're missing a field name---line 36 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 46 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 56 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 66 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 76 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 79 of file bib/panBib.bib
+ : @misc{threestudies
+ :                   ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 97 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 107 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 115 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 123 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 133 of file bib/panBib.bib
+ :     
+ :     %pages    = "321-330",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 139 of file bib/panBib.bib
+ : 
+ : %  author = {Charles, P.W.D.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 12 entries,
             1977 wiz_defined-function locations,
-            501 strings with 4147 characters,
-and the built_in function-call counts, 773 in all, are:
-= -- 75
-> -- 31
-< -- 1
-+ -- 10
-- -- 10
-* -- 64
-:= -- 139
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 14
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 28
-empty$ -- 54
-format.name$ -- 15
-if$ -- 148
-int.to.chr$ -- 1
+            542 strings with 5219 characters,
+and the built_in function-call counts, 3361 in all, are:
+= -- 344
+> -- 117
+< -- 10
++ -- 40
+- -- 36
+* -- 234
+:= -- 650
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 77
+chr.to.int$ -- 10
+cite$ -- 12
+duplicate$ -- 131
+empty$ -- 210
+format.name$ -- 51
+if$ -- 623
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 15
+missing$ -- 4
+newline$ -- 63
+num.names$ -- 36
+pop$ -- 49
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 78
 quote$ -- 0
-skip$ -- 21
+skip$ -- 112
 stack$ -- 0
-substring$ -- 49
-swap$ -- 2
+substring$ -- 171
+swap$ -- 3
 text.length$ -- 0
-text.prefix$ -- 3
+text.prefix$ -- 4
 top$ -- 0
-type$ -- 10
+type$ -- 70
 warning$ -- 0
-while$ -- 6
+while$ -- 26
 width$ -- 0
-write$ -- 27
+write$ -- 148
+(There were 12 error messages)
