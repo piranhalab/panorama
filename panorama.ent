@@ -450,7 +450,7 @@ los
 juegos
 e
 interacciones
-lúdicas.
+lúdicas."
 \@endanenote 
 \@doanenote {24}
 macro:->\textit
@@ -534,4 +534,7 @@ entidades
 intermediarias."
 \citep
 {p2p}
+\@endanenote 
+\@doanenote {25}
+macro:->Manovich
 \@endanenote 

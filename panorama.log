@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  22 MAR 2021 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  23 MAR 2021 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,8 +380,11 @@ Underfull \hbox (badness 1281) in paragraph at lines 10--11
  []
 
 [4]) (./sections/contemplacion.tex [5]) (./sections/three.tex)
-(./sections/discusion.tex [6]) (./sections/conclusiones.tex) (./panorama.ent
-[7]
+(./sections/discusion.tex [6]) (./sections/conclusiones.tex
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [7])
+(./panorama.ent
 Underfull \hbox (badness 4353) in paragraph at lines 22--55
 [][]\OT1/cmr/m/n/10 ``Plataforma de ex-pe-ri-men-ta-ci^^Son y di-fu-si^^Son
  []
@@ -409,7 +412,7 @@ Underfull \hbox (badness 3039) in paragraph at lines 22--55
 
 
 Underfull \hbox (badness 4913) in paragraph at lines 22--55
-\OT1/cmr/m/n/10 209679013466792$[][] (Con-sul-ta-do el 22 de mar-zo
+\OT1/cmr/m/n/10 209679013466792$[][] (Con-sul-ta-do el 23 de mar-zo
  []
 
 
@@ -448,7 +451,7 @@ Underfull \hbox (badness 2253) in paragraph at lines 115--133
 \OT1/cmr/m/n/10 mar-zo de 2021), tam-bi^^Sen: [][]$https : / / medium . com /
  []
 
-
+[8]
 Underfull \hbox (badness 4316) in paragraph at lines 211--222
 [][]\OT1/cmr/m/n/10 ``Renderizador de gr^^Safi-cos pa-ra el na-ve-ga-
  []
@@ -470,12 +473,12 @@ Underfull \hbox (badness 1406) in paragraph at lines 395--401
 l-ta-do
  []
 
-[8]) (./panorama.bbl
+) (./panorama.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 34--37
 []\OT1/cmr/m/n/10.95 EmilioOcelotl (2020c).  tres-estudios-
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 39--42
 []\OT1/cmr/m/n/10.95 federaciondecodigoalvuelo (2020).
  []
@@ -520,7 +523,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--68
 [][]$\OT1/cmr/m/n/10.95 https : / / github . com / rexmalebka /
  []
 
-) [9] (./panorama.aux
+) [10
+
+] (./panorama.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
@@ -528,13 +533,13 @@ Package rerunfilecheck Info: File `panorama.out' has not changed.
 (rerunfilecheck)             Checksum: F76C1F55E548D8FD2E4ECEE8EFDA073B;51.
  ) 
 Here is how much of TeX's memory you used:
- 7636 strings out of 479383
- 109965 string characters out of 5875830
- 446595 words of memory out of 5000000
- 24558 multiletter control sequences out of 15000+600000
+ 7638 strings out of 479383
+ 109998 string characters out of 5875830
+ 444597 words of memory out of 5000000
+ 24559 multiletter control sequences out of 15000+600000
  414231 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,72p,1427b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,8n,72p,1427b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -543,10 +548,10 @@ cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on panorama.pdf (9 pages, 153143 bytes).
+Output written on panorama.pdf (10 pages, 155633 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

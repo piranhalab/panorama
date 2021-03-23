@@ -44,6 +44,7 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 - [x] Diferenciar introducción y ecosistema 
 - [x] ¿Nota explicativa para cada módulo de software? 
 - [ ] Mediciones y materiales que comprueben la hipótesis 
+- [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio 
 
 ## Referencias
 
