@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  22 MAR 2021 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  22 MAR 2021 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,109 +375,152 @@ Underfull \hbox (badness 4416) in paragraph at lines 23--24
  []
 
 ) (./sections/notasypruebas.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1281) in paragraph at lines 10--11
 \OT1/cmr/m/n/10.95 dian-te la in-ter-ven-ci^^Son de dos bots. El pri-
  []
 
 [4]) (./sections/contemplacion.tex [5]) (./sections/three.tex)
-(./sections/discusion.tex [6]) (./sections/conclusiones.tex) [7]
-(./panorama.ent
-Underfull \hbox (badness 1107) in paragraph at lines 20--52
-\OT1/cmr/m/n/10 tro Mul-ti-me-dia del Cen-tro Na-cio-nal de las Ar-
+(./sections/discusion.tex [6]) (./sections/conclusiones.tex) (./panorama.ent
+[7]
+Underfull \hbox (badness 4353) in paragraph at lines 22--55
+[][]\OT1/cmr/m/n/10 ``Plataforma de ex-pe-ri-men-ta-ci^^Son y di-fu-si^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 3407) in paragraph at lines 22--55
+\OT1/cmr/m/n/10 de pro-yec-tos au-dio-vi-sua-les en vi-vo'' im-pul-sa-da
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 22--55
+\OT1/cmr/m/n/10 por el La-bo-ra-to-rio de Im^^Sage-nes en Mo-vi-mien-
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 22--55
+\OT1/cmr/m/n/10 to del Cen-tro Mul-ti-me-dia del Cen-tro Na-cio-nal
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 22--55
+\OT1/cmr/m/n/10 de las Ar-tes. [][]$https : / / www . facebook . com / events /
+
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 22--55
+\OT1/cmr/m/n/10 209679013466792$[][] (Con-sul-ta-do el 22 de mar-zo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
+[][][][]$\OT1/cmr/m/n/10 https : / / threecln . piranhalab . cc$[][](Consultado
+ el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--86
 [][][][]$\OT1/cmr/m/n/10 https : / / www . facebook . com / AlgoritmiTorino /
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 74--82
-[][]\OT1/cmr/m/n/10 TOPLAP M^^Sexi-co: VR Al-go-ra-ve con-sul-ta-do
+Underfull \hbox (badness 10000) in paragraph at lines 96--106
+[][]\OT1/cmr/m/n/10 TOPLAP M^^Sexi-co: VR Al-go-ra-ve
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--82
-\OT1/cmr/m/n/10 en: [][]$https : / / networkmusicfestival . org / programme /
+Underfull \hbox (badness 10000) in paragraph at lines 96--106
+[][]$\OT1/cmr/m/n/10 https : / / networkmusicfestival . org / programme /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--99
-[][]\OT1/cmr/m/n/10 La do-cu-men-ta-ci^^Son es es-ca-sa. Ver:
+Underfull \hbox (badness 5622) in paragraph at lines 96--106
+\OT1/cmr/m/n/10 performances / toplap-[]mexico-[]vr-[]algorave/$[][] (Con-sul-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--99
-[][]$\OT1/cmr/m/n/10 https : / / www . instagram . com / p / B[]bdw[]TlrKa$[][]
-,
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
+[][][][]$\OT1/cmr/m/n/10 https : / / www . youtube . com / c / Eulerroom /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--99
-\OT1/cmr/m/n/10 tam-bi^^Sen: [][]$https : / / medium . com / @desyfree /
+Underfull \hbox (badness 2253) in paragraph at lines 115--133
+\OT1/cmr/m/n/10 mar-zo de 2021), tam-bi^^Sen: [][]$https : / / medium . com /
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 163--171
-[][]\OT1/cmr/m/n/10 Renderizador de gr^^Safi-cos pa-ra el na-ve-ga-dor.
+Underfull \hbox (badness 4316) in paragraph at lines 211--222
+[][]\OT1/cmr/m/n/10 ``Renderizador de gr^^Safi-cos pa-ra el na-ve-ga-
  []
 
-) (./panorama.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--222
+\OT1/cmr/m/n/10 dor."[][]$https : / / www . khronos . org / webgl/$[][](Consult
+ado
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 273--309
+\OT1/cmr/m/n/10 developer . mozilla . org / es / docs / WebAssembly$[][] (Con-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 395--401
+[][][][]$\OT1/cmr/m/n/10 https : / / twitter . com / notasausencia$[][] (Con-su
+l-ta-do
+ []
+
+[8]) (./panorama.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 []\OT1/cmr/m/n/10.95 EmilioOcelotl (2020c).  tres-estudios-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 []\OT1/cmr/m/n/10.95 federaciondecodigoalvuelo (2020).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 \OT1/cmr/m/n/10.95 en-vivo.  [][]$https : / / github . com /
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 []\OT1/cmr/m/n/10.95 Feminist-Server-Summit (2014).  A fe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 \OT1/cmr/m/n/10.95 mi-nist ser-ver ma-ni-fes-to 0.01.  [][]$https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 \OT1/cmr/m/n/10.95 / / areyoubeingserved . constantvzw . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 []\OT1/cmr/m/n/10.95 MarianneTeixido (2020).  no-tas-deau-sen-
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 51--54
+Underfull \hbox (badness 1354) in paragraph at lines 55--58
 \OT1/cmr/m/n/10.95 cia.  [][]$https : / / github . com / MarianneTeixido /
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 56--59
+Underfull \hbox (badness 5592) in paragraph at lines 65--68
 []\OT1/cmr/m/n/10.95 rexmalebka (2020).  p2p-game-networking.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
 [][]$\OT1/cmr/m/n/10.95 https : / / github . com / rexmalebka /
  []
 
-) [9
-
-] (./panorama.aux
+) [9] (./panorama.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
@@ -485,13 +528,13 @@ Package rerunfilecheck Info: File `panorama.out' has not changed.
 (rerunfilecheck)             Checksum: F76C1F55E548D8FD2E4ECEE8EFDA073B;51.
  ) 
 Here is how much of TeX's memory you used:
- 7615 strings out of 479383
- 109747 string characters out of 5875830
- 444523 words of memory out of 5000000
- 24540 multiletter control sequences out of 15000+600000
- 413885 words of font info for 67 fonts, out of 8000000 for 9000
+ 7636 strings out of 479383
+ 109965 string characters out of 5875830
+ 446595 words of memory out of 5000000
+ 24558 multiletter control sequences out of 15000+600000
+ 414231 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,72p,1205b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,8n,72p,1427b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -500,10 +543,10 @@ cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on panorama.pdf (9 pages, 149207 bytes).
+Output written on panorama.pdf (9 pages, 153143 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,55 +52,66 @@ You're missing a field name---line 123 of file bib/panBib.bib
  :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 133 of file bib/panBib.bib
+You're missing a field name---line 131 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 139 of file bib/panBib.bib
+ :   
+ :   % commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 149 of file bib/panBib.bib
  :     
  :     %pages    = "321-330",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 139 of file bib/panBib.bib
+You're missing a field name---line 183 of file bib/panBib.bib
  : 
  : %  author = {Charles, P.W.D.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 12 entries,
+Warning--empty booktitle in p2p
+You've used 15 entries,
             1977 wiz_defined-function locations,
-            542 strings with 5219 characters,
-and the built_in function-call counts, 3361 in all, are:
-= -- 344
-> -- 117
-< -- 10
-+ -- 40
-- -- 36
-* -- 234
-:= -- 650
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 77
-chr.to.int$ -- 10
-cite$ -- 12
-duplicate$ -- 131
-empty$ -- 210
-format.name$ -- 51
-if$ -- 623
+            553 strings with 5400 characters,
+and the built_in function-call counts, 4301 in all, are:
+= -- 441
+> -- 127
+< -- 16
++ -- 44
+- -- 38
+* -- 275
+:= -- 805
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 92
+chr.to.int$ -- 13
+cite$ -- 16
+duplicate$ -- 185
+empty$ -- 286
+format.name$ -- 56
+if$ -- 830
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 63
-num.names$ -- 36
-pop$ -- 49
+missing$ -- 6
+newline$ -- 78
+num.names$ -- 45
+pop$ -- 69
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 94
 quote$ -- 0
-skip$ -- 112
+skip$ -- 160
 stack$ -- 0
-substring$ -- 171
-swap$ -- 3
-text.length$ -- 0
-text.prefix$ -- 4
+substring$ -- 232
+swap$ -- 19
+text.length$ -- 2
+text.prefix$ -- 3
 top$ -- 0
-type$ -- 70
-warning$ -- 0
-while$ -- 26
+type$ -- 86
+warning$ -- 1
+while$ -- 34
 width$ -- 0
-write$ -- 148
-(There were 12 error messages)
+write$ -- 184
+(There were 14 error messages)

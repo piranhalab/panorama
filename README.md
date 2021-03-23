@@ -37,13 +37,13 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 - [ ] Pasar de html a texto plano para compartir en algún lado.
 - [ ] Escribirle a lxs de ecosistemas.
 - [ ] Descripciones menos genéricas para las piezas. 
-- [ ] Citas y referencias.
+- [x] Citas y referencias.
 - [x] Convenciones de citación para repositorios. Equipo código y texto general 
 - [x] Decidir si en notas van los sitios activados y en referencias el repositorio 
-- [ ] Incorporar automation 
-- [ ] Actualización bibtex
+- [ ] Incorporar automation y actualización bibtex
 - [x] Diferenciar introducción y ecosistema 
 - [x] ¿Nota explicativa para cada módulo de software? 
+- [ ] Mediciones y materiales que comprueben la hipótesis 
 
 ## Referencias
 
