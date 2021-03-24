@@ -4,37 +4,37 @@ Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
+[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+
 ### Resumen
 
 El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gestores, instituciones públicas e industrias a replantear maneras de compartir flujos co-presenciales y hacer performance audiovisual en vivo.
 
-El presente artículo describe \textit{Panorama}, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
-
-[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+El presente artículo describe *Panorama*, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
 
 ## Estructura
 
-1. **Resumen y Palabras Clave**
+- **Resumen y Palabras Clave**
 
-2. **Ecosistema.-** Introducción, antecedentes, proyectos y tecnologías similares.
+- **Ecosistema.-** Introducción, antecedentes, proyectos y tecnologías similares.
 
-3. **Diseño y Escritura.-** Elementos del diseño de *Panorama*. Enunciación y descripción breve de las tecnologías implicadas.
+- **Diseño y Escritura.-** Elementos del diseño de *Panorama*. Enunciación y descripción breve de las tecnologías implicadas.
 
-4. **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
+- **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
 
-5. **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
+- **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
 
-6. **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
+- **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
 
-7. **Discusión.-** Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
+- **Discusión.-** Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
 
-8. **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
+- **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 
-9. **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
+- **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
 
-10. **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
+- **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
 
-## Requisitos para tex
+## Requisitos para compilar el documento
 
 - Compilador y editor latex
 - Instalar Endnotes
@@ -49,7 +49,7 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 - [ ] Pasar de html a texto plano para compartir en algún lado.
 - [ ] Escribirle a lxs de ecosistemas.
 - [ ] Descripciones menos genéricas para las piezas. 
-- [x] Citas y referencias.
+- [ ] Estilo de citas, notas al pie y referencias.
 - [x] Convenciones de citación para repositorios. Equipo código y texto general 
 - [x] Decidir si en notas van los sitios activados y en referencias el repositorio 
 - [ ] Incorporar automation y actualización bibtex

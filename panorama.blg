@@ -67,51 +67,51 @@ You're missing a field name---line 149 of file bib/panBib.bib
  :     %pages    = "321-330",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 183 of file bib/panBib.bib
+You're missing a field name---line 176 of file bib/panBib.bib
  : 
  : %  author = {Charles, P.W.D.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in p2p
-You've used 18 entries,
+You've used 19 entries,
             1977 wiz_defined-function locations,
-            573 strings with 5794 characters,
-and the built_in function-call counts, 5483 in all, are:
-= -- 558
-> -- 152
-< -- 21
-+ -- 55
-- -- 45
-* -- 348
-:= -- 998
-add.period$ -- 56
-call.type$ -- 18
-change.case$ -- 108
-chr.to.int$ -- 16
-cite$ -- 19
-duplicate$ -- 246
-empty$ -- 387
-format.name$ -- 66
-if$ -- 1089
+            582 strings with 6146 characters,
+and the built_in function-call counts, 6104 in all, are:
+= -- 624
+> -- 171
+< -- 23
++ -- 60
+- -- 50
+* -- 389
+:= -- 1094
+add.period$ -- 62
+call.type$ -- 19
+change.case$ -- 116
+chr.to.int$ -- 17
+cite$ -- 20
+duplicate$ -- 279
+empty$ -- 443
+format.name$ -- 72
+if$ -- 1234
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 93
-num.names$ -- 56
-pop$ -- 93
+missing$ -- 10
+newline$ -- 98
+num.names$ -- 63
+pop$ -- 97
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 118
 quote$ -- 0
-skip$ -- 207
+skip$ -- 232
 stack$ -- 0
-substring$ -- 312
-swap$ -- 36
-text.length$ -- 4
-text.prefix$ -- 3
+substring$ -- 352
+swap$ -- 46
+text.length$ -- 5
+text.prefix$ -- 4
 top$ -- 0
-type$ -- 100
+type$ -- 110
 warning$ -- 1
-while$ -- 45
+while$ -- 51
 width$ -- 0
-write$ -- 224
+write$ -- 240
 (There were 14 error messages)
