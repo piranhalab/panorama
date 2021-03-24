@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  24 MAR 2021 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  24 MAR 2021 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,20 +347,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./sections/abstract.tex)
-(./sections/keywords.tex) (./sections/introduccion.tex
+(./sections/keywords.tex) (./sections/ecosistema.tex
 Underfull \vbox (badness 7397) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]) (./sections/ecosistema.tex
-[2]) (./sections/metodologia.tex
-Underfull \hbox (badness 2245) in paragraph at lines 20--2
+] [2]) (./sections/escritura.tex
+Underfull \hbox (badness 2245) in paragraph at lines 37--2
 []\OT1/cmr/m/n/10.95 De la ex-pe-rien-cia co-mo asis-ten-tes, co-mo
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 20--2
+Underfull \hbox (badness 3547) in paragraph at lines 37--2
 \OT1/cmr/m/n/10.95 eje-cu-tan-tes y co-mo in-ci-pien-tes in-ves-ti-ga-do-
  []
 
@@ -549,10 +548,10 @@ Package rerunfilecheck Info: File `panorama.out' has not changed.
 (rerunfilecheck)             Checksum: F76C1F55E548D8FD2E4ECEE8EFDA073B;51.
  ) 
 Here is how much of TeX's memory you used:
- 7651 strings out of 479383
- 110244 string characters out of 5875830
+ 7647 strings out of 479383
+ 110147 string characters out of 5875830
  444678 words of memory out of 5000000
- 24568 multiletter control sequences out of 15000+600000
+ 24567 multiletter control sequences out of 15000+600000
  414231 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,72p,1914b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
