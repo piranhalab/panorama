@@ -10,6 +10,8 @@ El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gesto
 
 El presente artículo describe \textit{Panorama}, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
 
+[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+
 ## Estructura
 
 - Resumen
@@ -33,7 +35,7 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 
 ## Por hacer
 
-- [ ] Acentos y caracteres en con htlatex. 
+- [ ] Acentos y caracteres especiales con htlatex. 
 - [ ] Pasar de html a texto plano para compartir en algún lado.
 - [ ] Escribirle a lxs de ecosistemas.
 - [ ] Descripciones menos genéricas para las piezas. 
