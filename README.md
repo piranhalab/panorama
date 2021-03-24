@@ -4,54 +4,39 @@ Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
-[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
-
-## Estructura
-
 ### Resumen
 
 El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gestores, instituciones públicas e industrias a replantear maneras de compartir flujos co-presenciales y hacer performance audiovisual en vivo.
 
 El presente artículo describe \textit{Panorama}, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
 
-### Ecosistema
+[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
 
-Introducción, antecedentes, proyectos y tecnologías similares.
+## Estructura
 
-### Diseño y Escritura
+1. *Resumen y Palabras Clave*
 
-Elementos del diseño de **Panorama**. Enunciación y descripción breve de las tecnologías implicadas.
+2. *Ecosistema.-* Introducción, antecedentes, proyectos y tecnologías similares.
 
-### Notas y Pruebas
+3. *Diseño y Escritura.-* Elementos del diseño de **Panorama**. Enunciación y descripción breve de las tecnologías implicadas.
 
-Primera parte que describe resultados. Casos elegidos: **Notas de Ausencia** y **Pruebas proféticas**
+4. *Notas y Pruebas.-* Primera parte que describe resultados. Casos elegidos: **Notas de Ausencia** y **Pruebas proféticas**
 
-### EDGES y Contemplación 
+5. *EDGES y Contemplación.-* Segunda parte que describe resultados. Casos elegidos: **EDGES** y **La contemplación del Fin del Mundo**
 
-Segunda parte que describe resultados. Casos elegidos: **EDGES** y **La contemplación del Fin del Mundo**
+6. *Three y 4nt1.-* Tercera parte que describe resultados. Casos elegidos: **threecln** y **4nt1** (en proceso) 
 
-### Three y 4nt1
+7. *Discusión.-* Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
 
-Tercera parte que describe resultados. Casos elegidos: **threecln** y **4nt1** (en proceso) 
+8. *Conclusiones.-* ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 
-### Discusión
+9. *Notas.-* El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
 
-Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
+10. *Referencias.-* Referencias bibliográficas y repositorios en Git como referencias en la web. 
 
-### Conclusiones
+## Requisitos para tex
 
-¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
-
-### Notas
-
-El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
-
-### Referencias 
-
-Referencias bibliográficas y repositorios en Git como referencias en la web. 
-
-## Requisitos
-
+- Compilador latex
 - Instalar Endnotes
 
 ## Ejecución provisional
