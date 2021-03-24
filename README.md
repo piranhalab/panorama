@@ -15,23 +15,14 @@ El presente artículo describe *Panorama*, un conjunto de módulos de código y 
 ## Estructura
 
 - **Resumen y Palabras Clave**
-
 - **Ecosistema.-** Introducción, antecedentes, proyectos y tecnologías similares.
-
 - **Diseño y Escritura.-** Elementos del diseño de *Panorama*. Enunciación y descripción breve de las tecnologías implicadas.
-
 - **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
-
 - **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
-
 - **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
-
 - **Discusión.-** Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
-
 - **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
-
 - **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
-
 - **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
 
 ## Requisitos para compilar el documento
