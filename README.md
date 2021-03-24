@@ -14,29 +14,29 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 
 ## Estructura
 
-1. *Resumen y Palabras Clave*
+1. **Resumen y Palabras Clave**
 
-2. *Ecosistema.-* Introducción, antecedentes, proyectos y tecnologías similares.
+2. **Ecosistema.-** Introducción, antecedentes, proyectos y tecnologías similares.
 
-3. *Diseño y Escritura.-* Elementos del diseño de **Panorama**. Enunciación y descripción breve de las tecnologías implicadas.
+3. **Diseño y Escritura.-** Elementos del diseño de *Panorama*. Enunciación y descripción breve de las tecnologías implicadas.
 
-4. *Notas y Pruebas.-* Primera parte que describe resultados. Casos elegidos: **Notas de Ausencia** y **Pruebas proféticas**
+4. **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
 
-5. *EDGES y Contemplación.-* Segunda parte que describe resultados. Casos elegidos: **EDGES** y **La contemplación del Fin del Mundo**
+5. **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
 
-6. *Three y 4nt1.-* Tercera parte que describe resultados. Casos elegidos: **threecln** y **4nt1** (en proceso) 
+6. **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
 
-7. *Discusión.-* Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
+7. **Discusión.-** Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
 
-8. *Conclusiones.-* ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
+8. **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 
-9. *Notas.-* El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
+9. **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
 
-10. *Referencias.-* Referencias bibliográficas y repositorios en Git como referencias en la web. 
+10. **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
 
 ## Requisitos para tex
 
-- Compilador latex
+- Compilador y editor latex
 - Instalar Endnotes
 
 ## Ejecución provisional
