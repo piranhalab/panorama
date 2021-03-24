@@ -4,26 +4,51 @@ Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
-## Resumen
+[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+
+## Estructura
+
+### Resumen
 
 El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gestores, instituciones públicas e industrias a replantear maneras de compartir flujos co-presenciales y hacer performance audiovisual en vivo.
 
 El presente artículo describe \textit{Panorama}, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
 
-[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+### Ecosistema
 
-## Estructura
+Introducción, antecedentes, proyectos y tecnologías similares.
 
-- Resumen
-- Ecosistema - introducción
-- Diseño y escritura - metodología
-- Notas y pruebas - resultados
-- Contemplación y EDGES - resultados 
-- threecln y 4nt1 - resultados
-- Discusión
-- Conclusiones
-- Notas
-- Referencias 
+### Diseño y Escritura
+
+Elementos del diseño de **Panorama**. Enunciación y descripción breve de las tecnologías implicadas.
+
+### Notas y Pruebas
+
+Primera parte que describe resultados. Casos elegidos: **Notas de Ausencia** y **Pruebas proféticas**
+
+### EDGES y Contemplación 
+
+Segunda parte que describe resultados. Casos elegidos: **EDGES** y **La contemplación del Fin del Mundo**
+
+### Three y 4nt1
+
+Tercera parte que describe resultados. Casos elegidos: **threecln** y **4nt1** (en proceso) 
+
+### Discusión
+
+Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
+
+### Conclusiones
+
+¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
+
+### Notas
+
+El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
+
+### Referencias 
+
+Referencias bibliográficas y repositorios en Git como referencias en la web. 
 
 ## Requisitos
 
@@ -47,6 +72,7 @@ El presente artículo describe \textit{Panorama}, un conjunto de módulos de có
 - [x] ¿Nota explicativa para cada módulo de software? 
 - [ ] Mediciones y materiales que comprueben la hipótesis 
 - [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio 
+- [ ] Pruebas de compilación para una versión en línea. 
 
 ## Referencias
 
