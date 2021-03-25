@@ -10,7 +10,7 @@ Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl
 
 El confinamiento provocado por la pandemia de COVID-19 obligó a artistas, gestores, instituciones públicas e industrias a replantear maneras de compartir flujos co-presenciales y hacer performance audiovisual en vivo.
 
-El presente artículo describe *Panorama*, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales y tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación del espacio sobre materialidad, virtualidad, descentralización, distribución, espacio público, reconocimiento y ejecución telemática.                            
+El presente artículo describe *Panorama*, un conjunto de módulos de código y software que permiten realizar conciertos en espacios virtuales tridimensionales alojados en la web. De manera complementaria, enuncia discusiones que surgieron durante la activación de los espacios sobre materialidad, virtualidad, descentralización, distribución, espacio público, arqueologías del cyberespacio, entre otros.                       
 
 ## Estructura
 
