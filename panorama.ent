@@ -132,8 +132,8 @@ el
 )
 \@endanenote 
 \@doanenote {11}
-macro:->
-A-frame
+macro:->\textit
+{A-frame}
 es
 ``un
 marco
@@ -208,13 +208,7 @@ el
 )
 \@endanenote 
 \@doanenote {16}
-macro:->``Renderizador
-de
-gráficos
-para
-el
-navegador."
-\url
+macro:->\url
 {https://www.khronos.org/webgl/}(Consultado
 el
 \today
@@ -400,6 +394,40 @@ el
 )
 \@endanenote 
 \@doanenote {23}
+macro:->``\textit
+{The
+Wayback
+Machine}
+es
+una
+iniciative
+de
+Internet
+Archive
+para
+construir
+una
+librería
+digital
+de
+sitios
+de
+Internet
+y
+otros
+artefactos
+culturales
+en
+formato
+digital''.
+\url
+{http://web.archive.org/}
+(Consultado
+el
+\today
+)
+\@endanenote 
+\@doanenote {24}
 macro:->`la
 trascendencia
 de
@@ -441,7 +469,7 @@ expresión"
 pp.
 49
 \@endanenote 
-\@doanenote {24}
+\@doanenote {25}
 macro:->``el
 arte
 no
@@ -484,7 +512,7 @@ prinicipios."
 pp
 190
 \@endanenote 
-\@doanenote {25}
+\@doanenote {26}
 macro:->O
 Ludificación,
 del
@@ -537,7 +565,7 @@ e
 interacciones
 lúdicas."
 \@endanenote 
-\@doanenote {26}
+\@doanenote {27}
 macro:->``El
 término
 cyberespacio
@@ -574,7 +602,7 @@ computadora''
 \citep
 {cyberspace}
 \@endanenote 
-\@doanenote {27}
+\@doanenote {28}
 macro:->``En
 \textit
 {Web
@@ -630,7 +658,7 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {28}
+\@doanenote {29}
 macro:->\textit
 {P2P}
 (par

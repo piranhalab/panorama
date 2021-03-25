@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  24 MAR 2021 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.10)  25 MAR 2021 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,13 +373,20 @@ Underfull \hbox (badness 4416) in paragraph at lines 23--24
 []\OT1/cmr/m/n/10.95 Las ca-rac-ter^^S^^Psti-cas ac-tua-les pre-sen-tes en
  []
 
-) (./sections/notasypruebas.tex
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+)
+(./sections/notasypruebas.tex
 Underfull \hbox (badness 1281) in paragraph at lines 10--11
 \OT1/cmr/m/n/10.95 dian-te la in-ter-ven-ci^^Son de dos bots. El pri-
  []
 
-[4]) (./sections/contemplacion.tex [5]) (./sections/three.tex)
-(./sections/discusion.tex [6] [7]
+[4]) (./sections/contemplacion.tex [5]) (./sections/three.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(./sections/discusion.tex [7]
 Underfull \vbox (badness 2828) has occurred while \output is active []
 
 )
@@ -411,7 +418,7 @@ Underfull \hbox (badness 3039) in paragraph at lines 22--55
 
 
 Underfull \hbox (badness 4913) in paragraph at lines 22--55
-\OT1/cmr/m/n/10 209679013466792$[][] (Con-sul-ta-do el 24 de mar-zo
+\OT1/cmr/m/n/10 209679013466792$[][] (Con-sul-ta-do el 25 de mar-zo
  []
 
 
@@ -450,45 +457,34 @@ Underfull \hbox (badness 2253) in paragraph at lines 115--133
 \OT1/cmr/m/n/10 mar-zo de 2021), tam-bi^^Sen: [][]$https : / / medium . com /
  []
 
-
-Underfull \hbox (badness 4316) in paragraph at lines 211--222
-[][]\OT1/cmr/m/n/10 ``Renderizador de gr^^Safi-cos pa-ra el na-ve-ga-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--222
-\OT1/cmr/m/n/10 dor."[][]$https : / / www . khronos . org / webgl/$[][](Consult
-ado
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 273--309
+[9]
+Underfull \hbox (badness 3536) in paragraph at lines 267--303
 \OT1/cmr/m/n/10 developer . mozilla . org / es / docs / WebAssembly$[][] (Con-
  []
 
-[9]
-Underfull \hbox (badness 1406) in paragraph at lines 395--401
+
+Underfull \hbox (badness 1406) in paragraph at lines 389--395
 [][][][]$\OT1/cmr/m/n/10 https : / / twitter . com / notasausencia$[][] (Con-su
 l-ta-do
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 578--632
+Underfull \hbox (badness 2042) in paragraph at lines 606--660
 [][]\OT1/cmr/m/n/10 ``En \OT1/cmr/m/it/10 Web Au-dio\OT1/cmr/m/n/10 , es-pa-cia
 -li-za-cio-nes com-ple-jas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--632
+Underfull \hbox (badness 10000) in paragraph at lines 606--660
 \OT1/cmr/m/n/10 / / developer . mozilla . org / en-[]US / docs / Web / API /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--632
+Underfull \hbox (badness 10000) in paragraph at lines 606--660
 \OT1/cmr/m/n/10 Web[]Audio[]API / Web[]audio[]spatialization[]basics$[][]
  []
 
-) (./panorama.bbl
+[10]) (./panorama.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 34--37
 []\OT1/cmr/m/n/10.95 EmilioOcelotl (2020c).  tres-estudios-
  []
@@ -518,7 +514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
 \OT1/cmr/m/n/10.95 / / areyoubeingserved . constantvzw . org /
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--70
 []\OT1/cmr/m/n/10.95 MarianneTeixido (2020).  no-tas-deau-sen-
  []
@@ -548,11 +544,11 @@ Package rerunfilecheck Info: File `panorama.out' has not changed.
 Here is how much of TeX's memory you used:
  7652 strings out of 479383
  110231 string characters out of 5875830
- 444702 words of memory out of 5000000
+ 446702 words of memory out of 5000000
  24571 multiletter control sequences out of 15000+600000
  414231 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,72p,1914b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,8n,72p,1914b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -561,10 +557,10 @@ cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on panorama.pdf (11 pages, 162848 bytes).
+Output written on panorama.pdf (11 pages, 164124 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
+ 245 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  41 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

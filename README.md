@@ -50,6 +50,10 @@ El presente artículo describe *Panorama*, un conjunto de módulos de código y 
 - [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio 
 - [ ] Pruebas de compilación para una versión en línea. 
 
+## Propuestas
+
+- Mini taller de latex. 
+
 ## Referencias
 
 - [latex-demo](https://github.com/rexmalebka/latex-demo) 
