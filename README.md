@@ -32,7 +32,13 @@ El presente artículo describe *Panorama*, un conjunto de módulos de código y 
 
 ## Ejecución provisional
 
+Para compilar el documento en pdf
+
 `pdflatex -halt-on-error -output-directory out panorama.tex`
+
+Para compilar el texto como html 
+
+`make4ht -x panorama.tex`
 
 ## Por hacer
 

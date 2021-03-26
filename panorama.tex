@@ -4,7 +4,7 @@
 
 \documentclass[12pt,letterpaper, twocolumn]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish, es-notilde]{babel}
+\usepackage[spanish]{babel}
 \usepackage{endnotes}
 \usepackage{hyperref}
 \usepackage{amsmath}
@@ -49,24 +49,22 @@
 
 \input{sections/keywords}
 
-% Estructura ideal. Tomado de: https://www.lluiscodina.com/modelo-imryd/
 
-% \input{sections/introduccion} % Introducción. Desplazar antecedentes para la introducción 
-\input{sections/ecosistema} % Introducción y ecosistema es lo mismo
-\input{sections/escritura} % Aquí tiene que ir la descripción del sistema, esto está esbozado al final de ecosistema 
-\input{sections/notasypruebas} % Resultados
-\input{sections/contemplacion} % Resultados
-\input{sections/three} % Resultados 
-\input{sections/discusion} % nuevo, diferenciar de conclusiones
-\input{sections/conclusiones}  
+\input{sections/ecosistema} % Introducción, antecedentes, proyectos y tecnologías similares.
+\input{sections/escritura} % Elementos del diseño de Panorama. Enunciación y descripción breve de las tecnologías implicadas.
+\input{sections/notasypruebas} % Primera parte que describe resultados. Casos elegidos: Notas de Ausencia y Pruebas proféticas
+\input{sections/contemplacion}  % Segunda parte que describe resultados. Casos elegidos: EDGES y La contemplación del Fin del Mundo
+\input{sections/three} % Tercera parte que describe resultados. Casos elegidos: threecln (en proceso) y 4nt1 (en proceso)
+\input{sections/discusion} % Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo.
+\input{sections/conclusiones} % ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 
-\theendnotes % ¿Demasiadas notas? 
+\theendnotes % El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. Conceptos 
 
 %\nocite{interactiveDigitalMusic}
 % \nocite{speakingCode} 
 
-\addcontentsline{toc}{chapter}{\protect\numberline{}Bibliografía}%
-\bibliography{bib/panBib}{}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Referencias}%
+\bibliography{bib/panBib}{} % Referencias bibliográficas y repositorios en Git como referencias en la web.
 \bibliographystyle{apalike-es}
 
 \end{document}
