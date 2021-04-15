@@ -1,0 +1,932 @@
+<!DOCTYPE html> 
+<html xml:lang='es' lang='es'> 
+<head><title>Panorama
+Escritura de espacios libres e inmersivos
+para el performance audiovisual</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link rel="stylesheet" href="https://latex.now.sh/style.css">
+<meta content='panorama.tex' name='src' /> 
+</head><body>
+  <div class='maketitle'>
+                                             
+                                                                                         
+
+                                                                                         
+
+<h2 class='titleHead'>Panorama<br />
+Escritura de espacios libres e inmersivos para el performance audiovisual</h2>
+<div class='author'><span class='rm-lmr-12x-x-120'>Marianne Teixido, Dorian Sotomayor, Emilio Ocelotl</span></div><br />
+<div class='date'><span class='rm-lmr-12x-x-120'>26 de marzo de 2021</span></div>
+  </div>
+  <div class='abstract'>
+  <h3 class='likesectionHead'><a id='x1-1000'></a>Resumen</h3>
+<!-- l. 2 --><p class='noindent'>El confinamiento provocado por la pandemia
+de COVID-19 obligó a artistas, gestores,
+instituciones públicas e industrias a replantear
+maneras de compartir flujos co-presenciales y
+hacer performance audiovisual en vivo.
+</p><!-- l. 4 --><p class='indent'>  El presente artículo describe <span class='rm-lmri-12'>Panorama</span>, un
+conjunto de módulos de código y software que
+permiten realizar conciertos en espacios virtuales
+tridimensionales alojados en la web. De manera
+complementaria, enuncia discusiones que
+surgieron durante la activación del espacio sobre
+materialidad, virtualidad, descentralización,
+distribución, espacio público, arqueologías del
+cyberespacio, entre otros.
+</p>                                                 </div>
+ <!-- l. 2 --><p class='indent'>   <span class='rm-lmbxi-10x-x-109'>Palabras clave— </span><span class='rm-lmr-10x-x-109'>streaming, multiplayer, 3d,
+ </span><span class='rm-lmr-10x-x-109'>audio, video, materialidad, virtualidad, cyborg,
+ </span><span class='rm-lmr-10x-x-109'>cyberespacio, p2p</span>
+ </p><!-- l. 2 --><p class='noindent'>
+ </p>
+     <h3 class='likesectionHead'><a id='x1-2000'></a><span class='rm-lmr-10x-x-109'>Ecosistema</span></h3>
+ <!-- l. 6 --><p class='noindent'><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xpanorama'><span class='rm-lmr-10x-x-109'>rexmalebka</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xpanorama'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>) fue un programa
+ </span><span class='rm-lmr-10x-x-109'>escrito por </span><span class='rm-lmri-10x-x-109'>PiranhaLab</span><sup><a id='enmark-1' href='#ennote-1'><span class='cmr-8'>1</span></a></sup><span class='rm-lmr-10x-x-109'>, implementado en el
+ </span><span class='rm-lmr-10x-x-109'>marco de eventos institucionales, independientes y
+ </span><span class='rm-lmr-10x-x-109'>comisiones específicas. La hipótesis/premisa
+ </span><span class='rm-lmr-10x-x-109'>central de este proyecto buscó que los usuarios
+ </span><span class='rm-lmr-10x-x-109'>pudieran compartir una experiencia ligera para el
+ </span><span class='rm-lmr-10x-x-109'>navegador de manera co-presencial, aprovechando
+ </span><span class='rm-lmr-10x-x-109'>las posibilidades de las tecnologías de transmisión
+ </span><span class='rm-lmr-10x-x-109'>de audio y video. Hemos decidido delimitar el
+ </span><span class='rm-lmr-10x-x-109'>desarrollo de Panorama en torno a estos eventos y
+ </span><span class='rm-lmr-10x-x-109'>en particular, a </span><span class='rm-lmri-10x-x-109'>EDGES</span><sup><a id='enmark-2' href='#ennote-2'><span class='cmr-8'>2</span></a></sup><span class='rm-lmr-10x-x-109'>. Los eventos realizados en
+ </span><span class='rm-lmr-10x-x-109'>el marco de este ciclo se llevaron a cabo del 6 de
+ </span><span class='rm-lmr-10x-x-109'>agosto al 19 de noviembre de 2020. Algunos eventos
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10x-x-109'>independientes sucedieron ligeramente antes o
+</span><span class='rm-lmr-10x-x-109'>después de estas fechas.</span>
+</p><!-- l. 9 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Este proyecto de investigación considera una
+</span><span class='rm-lmr-10x-x-109'>selección de eventos como casos de estudio para la
+</span><span class='rm-lmr-10x-x-109'>comprobación de la hipótesis/premisa principal del
+</span><span class='rm-lmr-10x-x-109'>software desarrollado: </span><span class='rm-lmri-10x-x-109'>Notas de Ausencia</span><sup><a id='enmark-3' href='#ennote-3'><span class='cmr-8'>3</span></a></sup> <span class='rm-lmr-10x-x-109'>de
+</span><span class='rm-lmr-10x-x-109'>Marianne Teixido, </span><span class='rm-lmri-10x-x-109'>La Contemplación del Fin del
+</span><span class='rm-lmri-10x-x-109'>Mundo</span><sup><a id='enmark-4' href='#ennote-4'><span class='cmr-8'>4</span></a></sup> <span class='rm-lmr-10x-x-109'>de Dorian Sotomayor y </span><span class='rm-lmri-10x-x-109'>threecln</span><sup><a id='enmark-5' href='#ennote-5'><span class='cmr-8'>5</span></a></sup> <span class='rm-lmr-10x-x-109'>de Emilio
+</span><span class='rm-lmr-10x-x-109'>Ocelotl. Complementamos la descripción con algunos
+</span><span class='rm-lmr-10x-x-109'>espacios y eventos adicionalmente seleccionados:
+</span><span class='rm-lmri-10x-x-109'>Pruebas Proféticas</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>Distopia</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>Underborders </span><span class='rm-lmr-10x-x-109'>y
+</span><span class='rm-lmri-10x-x-109'>4NT1</span><span class='rm-lmr-10x-x-109'>.</span>
+</p><!-- l. 11 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El artículo aporta elementos a una discusión
+</span><span class='rm-lmr-10x-x-109'>para la reflexión transversal (técnica, estética y de
+</span><span class='rm-lmr-10x-x-109'>investigación académica) y utiliza conceptos que
+</span><span class='rm-lmr-10x-x-109'>nos permiten desplazarnos entre estos hilos para
+</span><span class='rm-lmr-10x-x-109'>entretejer la investigación transdisciplinaria. Se
+</span><span class='rm-lmr-10x-x-109'>adscribe a los planteamientos de los estudios
+</span><span class='rm-lmr-10x-x-109'>del software y busca extender la discusión del
+</span><span class='rm-lmr-10x-x-109'>terreno técnico y descriptivo. A lo largo del
+</span><span class='rm-lmr-10x-x-109'>texto buscamos problematizar el papel que juega
+</span><span class='rm-lmr-10x-x-109'>la computadora (local o en servidores) en la
+</span><span class='rm-lmr-10x-x-109'>realización de actividades musicales y peformáticas.</span>
+</p><!-- l. 21 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La primera parte de este apartado describe una
+</span><span class='rm-lmr-10x-x-109'>serie de plataformas, paralelas a</span><span class='rm-lmri-10x-x-109'>Panorama</span><span class='rm-lmr-10x-x-109'>, que
+</span><span class='rm-lmr-10x-x-109'>permitieron realizar conciertos audiovisuales
+</span><span class='rm-lmr-10x-x-109'>en el navegador con entornos tridimensionales.
+</span><span class='rm-lmr-10x-x-109'>Los puntos de coincidencia entre espacios que
+</span><span class='rm-lmr-10x-x-109'>la investigación detectó fueron: audio y video
+</span><span class='rm-lmr-10x-x-109'>transmitido en tiempo real y la posibilidad de
+</span><span class='rm-lmr-10x-x-109'>posicionar pantallas, audio, avatares y escenarios en
+</span><span class='rm-lmr-10x-x-109'>el espacio. La alusión a las plataformas que
+</span><span class='rm-lmr-10x-x-109'>compartieron ecosistema con </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>se delimita
+</span><span class='rm-lmr-10x-x-109'>proyectos con cercanía performática, la mayoría de
+</span><span class='rm-lmr-10x-x-109'>ellos escritos e implementados en la Ciudad de
+</span><span class='rm-lmr-10x-x-109'>México.</span>
+</p><!-- l. 23 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>En el contexto de la programación al vuelo
+</span><span class='rm-lmr-10x-x-109'>o </span><span class='rm-lmri-10x-x-109'>live coding</span><span class='rm-lmr-10x-x-109'>, los Algoraves organizados por
+</span><span class='rm-lmr-10x-x-109'>Algo:ritmi</span><sup><a id='enmark-6' href='#ennote-6'><span class='cmr-8'>6</span></a></sup> <span class='rm-lmr-10x-x-109'>iniciaron el interés por los espacios
+</span><span class='rm-lmr-10x-x-109'>tridimensionales de realidad virtual para lidiar conel distanciamiento social de la pandemia. Estos
+ </span><span class='rm-lmr-10x-x-109'>eventos tuvieron lugar en Mozilla Hubs</span><sup><a id='enmark-7' href='#ennote-7'><span class='cmr-8'>7</span></a></sup><span class='rm-lmr-10x-x-109'>. Esta
+ </span><span class='rm-lmr-10x-x-109'>plataforma resuelve el backend de la experiencia y
+ </span><span class='rm-lmr-10x-x-109'>permite al diseñador de espacio centrarse en el
+ </span><span class='rm-lmr-10x-x-109'>frontend, el montaje del escenario al que acceden
+ </span><span class='rm-lmr-10x-x-109'>los usuarios.</span>
+ </p><!-- l. 27 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Para el caso de la comunidad creativa en
+ </span><span class='rm-lmr-10x-x-109'>México, algunos otros casos de implementación de
+ </span><span class='rm-lmr-10x-x-109'>espacios virtuales en situaciones de concierto
+ </span><span class='rm-lmr-10x-x-109'>fueron propuestas por TOPLAP México. De
+ </span><span class='rm-lmr-10x-x-109'>manera similar a Algo:ritmi, Algoraves eventos
+ </span><span class='rm-lmr-10x-x-109'>relacionados con la escena de la programación
+ </span><span class='rm-lmr-10x-x-109'>al vuelo</span><sup><a id='enmark-8' href='#ennote-8'><span class='cmr-8'>8</span></a></sup> <span class='rm-lmr-10x-x-109'>fueron organizados en FabricaVR,
+ </span><span class='rm-lmr-10x-x-109'>la plataforma de realidad virtual dedicada de
+ </span><span class='rm-lmr-10x-x-109'>TOPLAP México. Ambos casos forman parte de
+ </span><span class='rm-lmr-10x-x-109'>comunidades que antes de la pandemia, realizaban
+ </span><span class='rm-lmr-10x-x-109'>conciertos con tecnologías de transmisión de audio
+ </span><span class='rm-lmr-10x-x-109'>y video</span><sup><a id='enmark-9' href='#ennote-9'><span class='cmr-8'>9</span></a></sup><span class='rm-lmr-10x-x-109'>.</span>
+ </p><!-- l. 29 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Adicionalmente, otras plataformas plantearon
+ </span><span class='rm-lmr-10x-x-109'>eventos similares con módulos de software distintos.
+ </span><span class='rm-lmr-10x-x-109'>Tal fue el caso de la plataforma OXXXO de Carlos
+ </span><span class='rm-lmr-10x-x-109'>Pesina que en co-participación con el festival
+ </span><span class='rm-lmr-10x-x-109'>Ceremonia permitió la realización de eventos
+ </span><span class='rm-lmr-10x-x-109'>digitales para afrontar la cancelación de conciertos
+ </span><span class='rm-lmr-10x-x-109'>presenciales.</span><sup><a id='enmark-10' href='#ennote-10'><span class='cmr-8'>10</span></a></sup>
+ </p><!-- l. 31 --><p class='indent'>  <span class='rm-lmri-10x-x-109'>A-frame</span><sup><a id='enmark-11' href='#ennote-11'><span class='cmr-8'>11</span></a></sup> <span class='rm-lmr-10x-x-109'>fue una solución alternativa a Mozilla
+ </span><span class='rm-lmr-10x-x-109'>Hubs para la realización de eventos virtuales.
+ </span><span class='rm-lmri-10x-x-109'>Sinestesia</span><sup><a id='enmark-12' href='#ennote-12'><span class='cmr-8'>12</span></a></sup> <span class='rm-lmr-10x-x-109'>y </span><span class='rm-lmri-10x-x-109'>ZeYX Lab</span><sup><a id='enmark-13' href='#ennote-13'><span class='cmr-8'>13</span></a></sup> <span class='rm-lmr-10x-x-109'>implementaron este
+ </span><span class='rm-lmr-10x-x-109'>entorno. Three.js</span><sup><a id='enmark-14' href='#ennote-14'><span class='cmr-8'>14</span></a></sup> <span class='rm-lmr-10x-x-109'>fue otro </span><span class='rm-lmri-10x-x-109'>framework </span><span class='rm-lmr-10x-x-109'>elegido
+ </span><span class='rm-lmr-10x-x-109'>para realizar este tipo de experiencias para el
+ </span><span class='rm-lmr-10x-x-109'>navegador. En este sentido destacamos el caso
+ </span><span class='rm-lmr-10x-x-109'>de </span><span class='rm-lmri-10x-x-109'>Calindros</span><sup><a id='enmark-15' href='#ennote-15'><span class='cmr-8'>15</span></a></sup> <span class='rm-lmr-10x-x-109'>de Hugo Solís. Este marco de
+ </span><span class='rm-lmr-10x-x-109'>trabajo resuelve el render gráfico, el resto de
+ </span><span class='rm-lmr-10x-x-109'>los complementos (comunicación entre pares,
+ </span><span class='rm-lmr-10x-x-109'>transmisión y procesamiento de señales de audio y
+ </span><span class='rm-lmr-10x-x-109'>video) debe ser resuelto de manera independiente.</span>
+ </p><!-- l. 33 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Finalmente, </span><span class='rm-lmri-10x-x-109'>federacion-de-codigo-al-vuelo
+ </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xen-vivo'><span class='rm-lmr-10x-x-109'>federaciondecodigoalvuelo</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xen-vivo'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>) fue el parteaguas
+ </span><span class='rm-lmr-10x-x-109'>de algunas ideas centrales que desembocaron en
+ </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>pero también en otros dos proyectos: Zona
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10x-x-109'>hipermedial y Camposónico</span><sup><a id='enmark-16' href='#ennote-16'><span class='cmr-8'>16</span></a></sup> <span class='rm-lmr-10x-x-109'>(</span><a href='#Xcamposonico'><span class='rm-lmr-10x-x-109'>diegodvc</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xcamposonico'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>). La
+</span><span class='rm-lmr-10x-x-109'>experiencia de colaboración con la </span><span class='rm-lmri-10x-x-109'>federación
+</span><span class='rm-lmr-10x-x-109'>permitió concebir el entramado de módulos de
+</span><span class='rm-lmr-10x-x-109'>código que pudieran resolver aspectos específicos.
+</span><span class='rm-lmr-10x-x-109'>Tal es el caso de un chat o alguna forma de
+</span><span class='rm-lmr-10x-x-109'>escritura en tiempo real o la transmisión de gestos
+</span><span class='rm-lmr-10x-x-109'>de un avatar que extiendieran las posibilidades de
+</span><span class='rm-lmr-10x-x-109'>desplazamiento y movimiento corporal en el
+</span><span class='rm-lmr-10x-x-109'>espacio. La búsqueda por un espacio personalizado
+</span><span class='rm-lmr-10x-x-109'>de los proyectos que se desprendieron de la
+</span><span class='rm-lmri-10x-x-109'>federación </span><span class='rm-lmr-10x-x-109'>se estableció con el objetivo de resolver
+</span><span class='rm-lmr-10x-x-109'>problemáticas de rendimiento que las plataformas
+</span><span class='rm-lmr-10x-x-109'>de alto nivel resolvían de una manera poco
+</span><span class='rm-lmr-10x-x-109'>transparente.</span>
+</p><!-- l. 35 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Los eventos anteriormente enunciados resolvieron
+</span><span class='rm-lmr-10x-x-109'>la transmisión de audio y video con plataformas
+</span><span class='rm-lmr-10x-x-109'>privativas de streaming como YouTube y Twitch;
+</span><span class='rm-lmr-10x-x-109'>plataformas para envío bidireccional de señales
+</span><span class='rm-lmr-10x-x-109'>de audio como Sagora, jacktrip y Sonobus y
+</span><span class='rm-lmr-10x-x-109'>plataformas para el montaje de servidores de
+</span><span class='rm-lmr-10x-x-109'>audio y video como Icecast o LiquidSoap. Esta
+</span><span class='rm-lmr-10x-x-109'>última experiencia apuntó a la escritura de un
+</span><span class='rm-lmr-10x-x-109'>servidor personalizado de streaming de audio y
+</span><span class='rm-lmr-10x-x-109'>video.</span>
+</p><!-- l. 37 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>De la experiencia como asistentes, como ejecutantes
+</span><span class='rm-lmr-10x-x-109'>y como incipientes investigadores/escritores de
+</span><span class='rm-lmr-10x-x-109'>código en plataformas y eventos que implicaron
+</span><span class='rm-lmr-10x-x-109'>estas resoluciones fue que el proyecto de </span><span class='rm-lmri-10x-x-109'>PiranhaLab
+</span><span class='rm-lmr-10x-x-109'>empezó a delimitarse. Adicionalmente, sugieron
+</span><span class='rm-lmr-10x-x-109'>discusiones sobre estos entornos, de las piezas y
+</span><span class='rm-lmr-10x-x-109'>eventos que contuvieron e incluso del momento en
+</span><span class='rm-lmr-10x-x-109'>el que espacio y e interpretación se desdibujan.</span>
+</p><!-- l. 3 --><p class='noindent'>
+</p>
+  <h3 class='likesectionHead'><a id='x1-3000'></a><span class='rm-lmr-10x-x-109'>Diseño y escritura</span></h3>
+<!-- l. 5 --><p class='noindent'><span class='rm-lmr-10x-x-109'>El diseño de </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>consideró:</span>
+</p>                                                     <ul class='itemize1'>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Escritura de una experiencia ligera: tiempo
+        </span><span class='rm-lmr-10x-x-109'>de  carga,  percepción  de  movimiento  del
+        </span><span class='rm-lmr-10x-x-109'>punto de vista de la cámara y percepción de
+        </span><span class='rm-lmr-10x-x-109'>otros usuarios en un espacio tridimensional.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Utilización  sencilla,  adaptable  a  distintos
+        </span><span class='rm-lmr-10x-x-109'>dispositivos y a la capacidad técnica de los
+        </span><span class='rm-lmr-10x-x-109'>usuarios.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Transmisión
+        </span><span class='rm-lmr-10x-x-109'>audiovisual en vivo que permitiera simular
+        </span><span class='rm-lmr-10x-x-109'>la  experiencia  de  asistencia  a  conciertos
+        </span><span class='rm-lmr-10x-x-109'>para eventos recurrentes y no recurrentes.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Autonomía en el uso de recursos: el sistema
+        </span><span class='rm-lmr-10x-x-109'>no  implicó  un  registro  y  buscó  evadir  el
+        </span><span class='rm-lmr-10x-x-109'>análisis  del  </span><span class='rm-lmri-10x-x-109'>streaming  </span><span class='rm-lmr-10x-x-109'>o  de  la  conexión
+        </span><span class='rm-lmr-10x-x-109'>entre  módulos  para  evitar  transmisiones
+        </span><span class='rm-lmr-10x-x-109'>silenciadas  por  el  uso  de  materiales  con
+        </span><span class='rm-lmr-10x-x-109'>derechos de autor.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Sistemas   fáciles   de   instalar,   recrear   y
+        </span><span class='rm-lmr-10x-x-109'>escalar.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Tecnologías  normalizadas,  no  privativas,
+        </span><span class='rm-lmr-10x-x-109'>con una marcada preferencia por el software
+        </span><span class='rm-lmr-10x-x-109'>libre.</span>
+        </li>
+        <li class='itemize'><span class='rm-lmr-10x-x-109'>Generación de experiencias personalizadas
+        </span><span class='rm-lmr-10x-x-109'>que                  respondiera                  a
+        </span><span class='rm-lmr-10x-x-109'>las necesidades performativas, posibilidades
+        </span><span class='rm-lmr-10x-x-109'>futuras abiertas y adaptables.</span></li></ul>
+                                                                                         
+
+                                                                                         
+<!-- l. 17 --><p class='indent'>  <span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>se escribió para entornos web, no
+</span><span class='rm-lmr-10x-x-109'>requiere instalación de software adicional, más allá
+</span><span class='rm-lmr-10x-x-109'>de un navegador web actual. Los avances en la
+</span><span class='rm-lmr-10x-x-109'>tecnología web permiten la homogeneización de la
+</span><span class='rm-lmr-10x-x-109'>experiencia y pueden abarcar un gran público. El
+</span><span class='rm-lmr-10x-x-109'>sistema utiliza WebGL</span><sup><a id='enmark-17' href='#ennote-17'><span class='cmr-8'>17</span></a></sup> <span class='rm-lmr-10x-x-109'>para la renderización de
+</span><span class='rm-lmr-10x-x-109'>imagen en el navegador. Este entorno permite la
+</span><span class='rm-lmr-10x-x-109'>generación de espacios virtuales y tridimensionales
+</span><span class='rm-lmr-10x-x-109'>donde se pueden alojar experiencias visuales,
+</span><span class='rm-lmr-10x-x-109'>auditivas y presenciales. Javascript es el lenguaje de
+</span><span class='rm-lmr-10x-x-109'>programación principal del proyecto debido a su
+</span><span class='rm-lmr-10x-x-109'>uso normalizado en navegadores y aplicaciones web.
+</span><span class='rm-lmr-10x-x-109'>Para fines prácticos, este sistema permite conectar
+</span><span class='rm-lmr-10x-x-109'>las partes del sistema entero.</span>
+</p><!-- l. 19 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Three.js como </span><span class='rm-lmri-10x-x-109'>framework </span><span class='rm-lmr-10x-x-109'>implementa webGL y
+</span><span class='rm-lmr-10x-x-109'>asegura la rápida codificación y reutilización de
+</span><span class='rm-lmr-10x-x-109'>código. Además, es posible importar modelos
+</span><span class='rm-lmr-10x-x-109'>hechos en programas de modelado tridimensional,
+</span><span class='rm-lmr-10x-x-109'>efectos y módulos para la reproducción de audio
+</span><span class='rm-lmr-10x-x-109'>en web con Web Audio API</span><sup><a id='enmark-18' href='#ennote-18'><span class='cmr-8'>18</span></a></sup> <span class='rm-lmr-10x-x-109'>y conceptos
+</span><span class='rm-lmr-10x-x-109'>convencionales y compartidos de materiales y
+</span><span class='rm-lmr-10x-x-109'>geometrías relacionados a programas de modelado
+</span><span class='rm-lmr-10x-x-109'>en tes dimensiones. Como un punto adicional, este
+</span><span class='rm-lmr-10x-x-109'>marco de trabajo cuenta con documentación
+</span><span class='rm-lmr-10x-x-109'>actualizada y constante. La implementación
+</span><span class='rm-lmr-10x-x-109'>de WebAssembly</span><sup><a id='enmark-19' href='#ennote-19'><span class='cmr-8'>19</span></a></sup> <span class='rm-lmr-10x-x-109'>ha permitido la generación
+</span><span class='rm-lmr-10x-x-109'>de sistemas rápidos y eficientes, sin capas de
+</span><span class='rm-lmr-10x-x-109'>abstracción de software innecesarias.</span>
+</p><!-- l. 21 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El diseño del módulo de </span><span class='rm-lmri-10x-x-109'>streaming </span><span class='rm-lmr-10x-x-109'>presentó
+</span><span class='rm-lmr-10x-x-109'>una discusión sobre lo legal, la reproducción
+</span><span class='rm-lmr-10x-x-109'>de audio y video en la web y uso de recursos.
+</span><span class='rm-lmr-10x-x-109'>Las restricciones que imponen los servidores
+</span><span class='rm-lmr-10x-x-109'>privados al contenido remixeado fue una de
+</span><span class='rm-lmr-10x-x-109'>las motivaciones para implementar un sistema
+</span><span class='rm-lmr-10x-x-109'>personalizado. De esta manera, el sistema evita el
+</span><span class='rm-lmr-10x-x-109'>mercado exclusivo de servicios de streaming
+</span><span class='rm-lmr-10x-x-109'>privados, con licencias de paga o limitados. De
+</span><span class='rm-lmr-10x-x-109'>manera complementaria, el sistema de </span><span class='rm-lmri-10x-x-109'>streaming
+</span><span class='rm-lmr-10x-x-109'>personalizado permite controlar la cantidad
+</span><span class='rm-lmr-10x-x-109'>de recursos usados y usuarios conectados. Los    </span><span class='rm-lmr-10x-x-109'>formatos para la transmisión de video en web
+ </span><span class='rm-lmr-10x-x-109'>explorados fueron: RTMP (Real Time Messaging
+ </span><span class='rm-lmr-10x-x-109'>Protocol), FLV (Flash Video), HLS (HTTP Live
+ </span><span class='rm-lmr-10x-x-109'>Streaming), video a través de WebSockets</span><sup><a id='enmark-20' href='#ennote-20'><span class='cmr-8'>20</span></a></sup><span class='rm-lmr-10x-x-109'>,
+ </span><span class='rm-lmr-10x-x-109'>WebRTC (Web Real-Time Communication) y
+ </span><span class='rm-lmr-10x-x-109'>MPEG-DASH (Dynamic Adaptive Streaming over
+ </span><span class='rm-lmr-10x-x-109'>HTTP).</span>
+ </p><!-- l. 23 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Las características actuales presentes en HTML5
+ </span><span class='rm-lmr-10x-x-109'>(Quinta versión de HyperText Markup Language)
+ </span><span class='rm-lmr-10x-x-109'>permiten utilizar formatos de streaming no nativos
+ </span><span class='rm-lmr-10x-x-109'>con </span><span class='rm-lmri-10x-x-109'>frameworks </span><span class='rm-lmr-10x-x-109'>de decodificación para el despliegue
+ </span><span class='rm-lmr-10x-x-109'>de video en formatos soportados por el navegador.
+ </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>utiliza RTMP debido a 1) la robustez del
+ </span><span class='rm-lmr-10x-x-109'>protocolo, 2) la rapidez de transmisión de datos, 3)
+ </span><span class='rm-lmr-10x-x-109'>la documentación que existe sobre NGINX</span><sup><a id='enmark-21' href='#ennote-21'><span class='cmr-8'>21</span></a></sup> <span class='rm-lmr-10x-x-109'>RTMP
+ </span><span class='rm-lmr-10x-x-109'>y 4) el uso de FFmpeg</span><sup><a id='enmark-22' href='#ennote-22'><span class='cmr-8'>22</span></a></sup> <span class='rm-lmr-10x-x-109'>para la recodificación y
+ </span><span class='rm-lmr-10x-x-109'>redimensión de video en la web. La plataforma
+ </span><span class='rm-lmr-10x-x-109'>utiliza FLV debido a la velocidad del protocolo (no
+ </span><span class='rm-lmr-10x-x-109'>se descarta el uso de otros protocolos en el futuro).
+ </span><span class='rm-lmr-10x-x-109'>Para el uso de FLV en el navegador, se utilizó
+ </span><span class='rm-lmr-10x-x-109'>FLV.js.</span>
+ </p><!-- l. 25 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Para la interacción entre usuarios se utilizó
+ </span><span class='rm-lmr-10x-x-109'>WebSockets. Esto implicó: 1) uso de chat, 2)
+ </span><span class='rm-lmr-10x-x-109'>compartición en tiempo real de eventos gestuales
+ </span><span class='rm-lmr-10x-x-109'>(rotación y posición) del avatar utilizado y 3)
+ </span><span class='rm-lmr-10x-x-109'>personalización de modelo, textura y nombre de
+ </span><span class='rm-lmr-10x-x-109'>cada usuario.</span>
+ </p><!-- l. 27 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Del lado del servidor se usaron balanceadores de
+ </span><span class='rm-lmr-10x-x-109'>carga junto con modelos de configuración para la
+ </span><span class='rm-lmr-10x-x-109'>instalación y eliminación de recursos, haciendo
+ </span><span class='rm-lmr-10x-x-109'>independientes los servidores dedicados al </span><span class='rm-lmri-10x-x-109'>streaming
+ </span><span class='rm-lmr-10x-x-109'>y a servicios web. Esto permite que los espacios
+ </span><span class='rm-lmr-10x-x-109'>puedan ser escritos, eliminados o mantenidos según
+ </span><span class='rm-lmr-10x-x-109'>el diseño del evento en cuestión.</span>
+ </p><!-- l. 2 --><p class='noindent'>
+ </p>
+     <h3 class='likesectionHead'><a id='x1-4000'></a><span class='rm-lmr-10x-x-109'>Notas y Pruebas</span></h3>
+                                                                                         
+
+                                                                                         
+<!-- l. 6 --><p class='noindent'><span class='rm-lmri-10x-x-109'>Notas de Ausencia </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xnotasdeausencia'><span class='rm-lmr-10x-x-109'>MarianneTeixido</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xnotasdeausencia'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>) es un
+</span><span class='rm-lmr-10x-x-109'>ensayo generativo en la web. Utiliza el texto
+</span><span class='rm-lmr-10x-x-109'>dato que por medio de la computadora como
+</span><span class='rm-lmr-10x-x-109'>agente resignificante, deconstruye estructuras
+</span><span class='rm-lmr-10x-x-109'>discursivas para resemantizar la narrativa sobre las
+</span><span class='rm-lmr-10x-x-109'>desapariciones de mujeres en México y América
+</span><span class='rm-lmr-10x-x-109'>Latina.</span>
+</p><!-- l. 8 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El tiempo y espacio virtual conforman una
+</span><span class='rm-lmr-10x-x-109'>partitura para la memoria y la denuncia. La
+</span><span class='rm-lmr-10x-x-109'>narrativa, semi autónoma, argumenta a partir de
+</span><span class='rm-lmr-10x-x-109'>textos tomados de tweets, poemarios, libros y
+</span><span class='rm-lmr-10x-x-109'>artículos feministas que explican desde la teoría
+</span><span class='rm-lmr-10x-x-109'>las desapariciones forzadas, el feminicidio y la
+</span><span class='rm-lmr-10x-x-109'>violencia de género. Lo cuales están presente como
+</span><span class='rm-lmr-10x-x-109'>texto, imagen y sonido.</span>
+</p><!-- l. 10 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La narrativa de la pieza está articulada
+</span><span class='rm-lmr-10x-x-109'>mediante la intervención de dos bots. El primero
+</span><span class='rm-lmr-10x-x-109'>comparte tuits que localiza con hashtag como:
+</span><span class='rm-lmr-10x-x-109'>#MéxicoFeminicida, #MadresEnBúsqueda,
+</span><span class='rm-lmr-10x-x-109'>#ViolenciadeGenero, #NiUnaMenos, entre otros.</span><sup><a id='enmark-23' href='#ennote-23'><span class='cmr-8'>23</span></a></sup>
+<span class='rm-lmr-10x-x-109'>Así como con un bot de generación de texto
+</span><span class='rm-lmr-10x-x-109'>automático.</span>
+</p><!-- l. 12 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Esta exploración permitió a Marianne Teixido
+</span><span class='rm-lmr-10x-x-109'>en colaboración con </span><span class='rm-lmri-10x-x-109'>PiranhaLab </span><span class='rm-lmr-10x-x-109'>encontrar en
+</span><span class='rm-lmr-10x-x-109'>Three.js la solución para implementar espacios
+</span><span class='rm-lmr-10x-x-109'>tridimensionales como la parte visible de piezas y
+</span><span class='rm-lmr-10x-x-109'>espacios.</span>
+</p><!-- l. 14 --><p class='indent'>  <span class='rm-lmri-10x-x-109'>Pruebas Proféticas </span><span class='rm-lmr-10x-x-109'>fue el evento piloto que
+</span><span class='rm-lmr-10x-x-109'>implementó por primera vez dos tipos de tecnologías
+</span><span class='rm-lmr-10x-x-109'>específicas: exploración multijugador y </span><span class='rm-lmri-10x-x-109'>streaming
+</span><span class='rm-lmr-10x-x-109'>personalizado.</span>
+</p><!-- l. 16 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Este espacio de prueba consistió en un incipiente
+</span><span class='rm-lmr-10x-x-109'>modo de exploración co-presencial que guardaba
+</span><span class='rm-lmr-10x-x-109'>una relación entre la posición y la rotación de la
+</span><span class='rm-lmr-10x-x-109'>cámara, controlada por medio del ratón y el teclado
+</span><span class='rm-lmr-10x-x-109'>de la computadora. Para el control se utlizaron las
+</span><span class='rm-lmr-10x-x-109'>teclas WASD y flechas siguiendo la convención de
+</span><span class='rm-lmr-10x-x-109'>la cámara de videojuegos en primera persona.
+</span><span class='rm-lmr-10x-x-109'>La información de posición y rotación fueron
+</span><span class='rm-lmr-10x-x-109'>compartidas y podían visualizar el movimiento deavatares que representaban a los asistentes en el
+ </span><span class='rm-lmr-10x-x-109'>espacio digital.</span>
+ </p><!-- l. 18 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La transmisión de audio y video fue un aspecto que
+ </span><span class='rm-lmr-10x-x-109'>el planteamiento de </span><span class='rm-lmri-10x-x-109'>PiranhaLab </span><span class='rm-lmr-10x-x-109'>buscó solucionar.
+ </span><span class='rm-lmr-10x-x-109'>Es posible utilizar servicios gratuitos o de paga
+ </span><span class='rm-lmr-10x-x-109'>para la transmisión de datos audiovisuales, sin
+ </span><span class='rm-lmr-10x-x-109'>embargo, en menor o mayor medida, el flujo
+ </span><span class='rm-lmr-10x-x-109'>audiovisual generado es analizado y en caso de que
+ </span><span class='rm-lmr-10x-x-109'>se detecte algún extacto de audio proveniente con
+ </span><span class='rm-lmr-10x-x-109'>derechos de autor, el stream es silenciado. Este
+ </span><span class='rm-lmr-10x-x-109'>artículo no busca centrarse en discusiones sobre
+ </span><span class='rm-lmr-10x-x-109'>derechos de autor sino en la usabilidad de un
+ </span><span class='rm-lmr-10x-x-109'>streaming audiovisual.</span>
+ </p><!-- l. 20 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La concatenación de software estuvo delimitado
+ </span><span class='rm-lmr-10x-x-109'>por la experiencia de usuarios hipotéticos. Esto
+ </span><span class='rm-lmr-10x-x-109'>nos llevo a plantear los posibles agentes que se
+ </span><span class='rm-lmr-10x-x-109'>involucraban con la experiencia inmersiva. Como la
+ </span><span class='rm-lmr-10x-x-109'>propuesta partió de eventos performáticos tipo
+ </span><span class='rm-lmr-10x-x-109'>concierto, la figura de intérpretes/artistas fue
+ </span><span class='rm-lmr-10x-x-109'>central. El mantenimiento del flujo performático
+ </span><span class='rm-lmr-10x-x-109'>expresado a partir de una transmisión de audio
+ </span><span class='rm-lmr-10x-x-109'>y video delimitó el aspecto técnico y estético
+ </span><span class='rm-lmr-10x-x-109'>del espacio: El primer objetivo a resolver fue el
+ </span><span class='rm-lmr-10x-x-109'>streaming que pudiera ser estable, eficiente,
+ </span><span class='rm-lmr-10x-x-109'>compatible con la convención de transmisión
+ </span><span class='rm-lmr-10x-x-109'>personalizada ejecutada con programas de interfaz
+ </span><span class='rm-lmr-10x-x-109'>gráfica como OBS (Open Broadcaster Software).</span>
+ </p><!-- l. 22 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El segundo tipo de agente fue el público que
+ </span><span class='rm-lmr-10x-x-109'>navegaba en el espacio y que realizaba gestos
+ </span><span class='rm-lmr-10x-x-109'>corporales virtuales sencillos: posición y rotación.</span>
+ </p><!-- l. 24 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Un tercer tipo de agente se involucró con los
+ </span><span class='rm-lmr-10x-x-109'>aspectos fuera del escenario, la lógistica de la
+ </span><span class='rm-lmr-10x-x-109'>transmisión y el mantenimiento del sistema en
+ </span><span class='rm-lmr-10x-x-109'>tiempo real visibilizó la figura del </span><span class='rm-lmri-10x-x-109'>staff</span><span class='rm-lmr-10x-x-109'>. En este
+ </span><span class='rm-lmr-10x-x-109'>sentido la labor tecnológica virtual del equipo de
+ </span><span class='rm-lmri-10x-x-109'>PiranhaLab </span><span class='rm-lmr-10x-x-109'>fue cercana a la logística y a la
+ </span><span class='rm-lmr-10x-x-109'>división del trabajo de un escenario para conciertos
+ </span><span class='rm-lmr-10x-x-109'>presenciales.</span>
+ </p><!-- l. 26 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La experiencia con </span><span class='rm-lmri-10x-x-109'>Pruebas Proféticas </span><span class='rm-lmr-10x-x-109'>abrió
+ </span><span class='rm-lmr-10x-x-109'>camino para el diseño de la edición 2020 de
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10x-x-109'>EDGES. El concepto curatorial de </span><span class='rm-lmri-10x-x-109'>EDGES </span><span class='rm-lmr-10x-x-109'>estuvo
+</span><span class='rm-lmr-10x-x-109'>definido por Marianne Teixido y guardó una
+</span><span class='rm-lmr-10x-x-109'>estrecha relación con los planteamientos de </span><span class='rm-lmri-10x-x-109'>Notas
+</span><span class='rm-lmri-10x-x-109'>de Ausencia</span><span class='rm-lmr-10x-x-109'>, considera las posibilidades de creación
+</span><span class='rm-lmr-10x-x-109'>planteandonos desde el feminismo intereseccional,
+</span><span class='rm-lmr-10x-x-109'>perspectiva desde la cual se problematiza el uso
+</span><span class='rm-lmr-10x-x-109'>de la tecnología teniendo en consideración las
+</span><span class='rm-lmr-10x-x-109'>condiciones de raza, género y clase, a partir de la
+</span><span class='rm-lmr-10x-x-109'>cuales se establece una crítica las herramientas
+</span><span class='rm-lmr-10x-x-109'>hegemónicas ya dadas para apuntar a la creación de
+</span><span class='rm-lmr-10x-x-109'>estas otras herramientas, construídas desde
+</span><span class='rm-lmr-10x-x-109'>dinámicas de organización colectiva y conocimientos
+</span><span class='rm-lmr-10x-x-109'>situados. </span><span class='rm-lmri-10x-x-109'>EDGES 2020 </span><span class='rm-lmr-10x-x-109'>como propuesta curatorial
+</span><span class='rm-lmr-10x-x-109'>contempla la participación en su mayoría de
+</span><span class='rm-lmr-10x-x-109'>mujeres y persona no binaries. Las obras dialogan
+</span><span class='rm-lmr-10x-x-109'>con las hibridaciones e-corporales en espacios
+</span><span class='rm-lmr-10x-x-109'>virtuales ficcionados desde las subjetividades
+</span><span class='rm-lmr-10x-x-109'>feministas y transfeministas que toman internet
+</span><span class='rm-lmr-10x-x-109'>como territorio y espacio de intercambio cultural.</span>
+</p><!-- l. 2 --><p class='noindent'>
+</p>
+  <h3 class='likesectionHead'><a id='x1-5000'></a><span class='rm-lmr-10x-x-109'>Contemplación y EDGES</span></h3>
+<!-- l. 17 --><p class='noindent'><span class='rm-lmri-10x-x-109'>Distopía</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>NLXS + NK</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>Interconexión</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>setInterval()
+</span><span class='rm-lmr-10x-x-109'>y </span><span class='rm-lmri-10x-x-109'>La Contemplación del Fin del Mundo </span><span class='rm-lmr-10x-x-109'>fueron los
+</span><span class='rm-lmr-10x-x-109'>eventos realiados en el marco de </span><span class='rm-lmri-10x-x-109'>EDGES</span><span class='rm-lmr-10x-x-109'>.</span>
+</p><!-- l. 19 --><p class='indent'>  <span class='rm-lmri-10x-x-109'>La Contemplación del Fin del Mundo </span><span class='rm-lmr-10x-x-109'>es un
+</span><span class='rm-lmr-10x-x-109'>performance a modo de ejuego, último evento de la
+</span><span class='rm-lmr-10x-x-109'>serie </span><span class='rm-lmri-10x-x-109'>EDGES </span><span class='rm-lmr-10x-x-109'>que destruye el escenario de manera
+</span><span class='rm-lmr-10x-x-109'>simbólica para dar por finalizado el ciclo de
+</span><span class='rm-lmr-10x-x-109'>conciertos. Los asistentes podían presenciar el fin
+</span><span class='rm-lmr-10x-x-109'>del mundo con la destrucción del escenario y otros
+</span><span class='rm-lmr-10x-x-109'>eventos como inundaciones, objetos celestiales
+</span><span class='rm-lmr-10x-x-109'>y finalmente la dispersión de los colores del
+</span><span class='rm-lmr-10x-x-109'>escenario, dejando a los objetos del espacio sin
+</span><span class='rm-lmr-10x-x-109'>razgos reconocibles.</span>
+</p><!-- l. 21 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La idea principal sirvió como vehículo para la
+</span><span class='rm-lmr-10x-x-109'>exploración del espacio como característica del   </span><span class='rm-lmr-10x-x-109'>performance, el mundo explorable, la persecución
+ </span><span class='rm-lmr-10x-x-109'>en forma de figuras celestiales que ocupaban todo el
+ </span><span class='rm-lmr-10x-x-109'>espacio o que se expandían e iluminaban todo así
+ </span><span class='rm-lmr-10x-x-109'>como las inundaciociones. También permitió la
+ </span><span class='rm-lmr-10x-x-109'>exploración del uso de pantallas distribuidas a
+ </span><span class='rm-lmr-10x-x-109'>lo largo de todo el mundo, permitiendo a los
+ </span><span class='rm-lmr-10x-x-109'>usuarios presenciar el performance desde cualquier
+ </span><span class='rm-lmr-10x-x-109'>ubicación.</span>
+ </p><!-- l. 23 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Uno de los aspectos a destacar de este concierto
+ </span><span class='rm-lmr-10x-x-109'>es el uso de acciones colectivas lanzadas por
+ </span><span class='rm-lmr-10x-x-109'>el artista, que durante el trascurso del evento
+ </span><span class='rm-lmr-10x-x-109'>podía cambiar las características del ambiente
+ </span><span class='rm-lmr-10x-x-109'>de manera similar entre los participantes. La
+ </span><span class='rm-lmr-10x-x-109'>experiencia de los usuarios fue se transformaba
+ </span><span class='rm-lmr-10x-x-109'>en el trancurso del evento, fue homogénea y
+ </span><span class='rm-lmr-10x-x-109'>compartida. Adicionalmente se implementó Hydra
+ </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xhydra'><span class='rm-lmr-10x-x-109'>ojack</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xhydra'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>) como un framework externo para la
+ </span><span class='rm-lmr-10x-x-109'>creación de visuales.</span>
+ </p><!-- l. 25 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Las dificultad de las experiencias compartidas
+ </span><span class='rm-lmr-10x-x-109'>radica en la sincronización de eventos, tanto para
+ </span><span class='rm-lmr-10x-x-109'>los usuarios que ingresan desde el inicio o los
+ </span><span class='rm-lmr-10x-x-109'>usuarios ocasionales, sin importar ubicación
+ </span><span class='rm-lmr-10x-x-109'>geográfica o dispositivo. Esta posibilidad permite la
+ </span><span class='rm-lmr-10x-x-109'>interacción del artista y genera situaciones que
+ </span><span class='rm-lmr-10x-x-109'>añadan dinámica al juego, donde los asistentes se
+ </span><span class='rm-lmr-10x-x-109'>desplazan de ser observadores a ser participantes
+ </span><span class='rm-lmr-10x-x-109'>activos.</span>
+ </p><!-- l. 2 --><p class='noindent'>
+ </p>
+     <h3 class='likesectionHead'><a id='x1-6000'></a><span class='rm-lmr-10x-x-109'>Three y 4NT1</span></h3>
+ <!-- l. 4 --><p class='noindent'><span class='rm-lmri-10x-x-109'>THREE.studies </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xthreestudies'><span class='rm-lmr-10x-x-109'>EmilioOcelotl</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xthreestudies'><span class='rm-lmr-10x-x-109'>2020b</span></a><span class='rm-lmr-10x-x-109'>) hereda
+ </span><span class='rm-lmr-10x-x-109'>discusiones referentes al punto de vista, la
+ </span><span class='rm-lmr-10x-x-109'>co-presencia, el envío de información gestual a
+ </span><span class='rm-lmr-10x-x-109'>través de la web, la transmisión de flujos de
+ </span><span class='rm-lmr-10x-x-109'>audio y video a partir de servidores y el uso
+ </span><span class='rm-lmr-10x-x-109'>de fuentes sonoras en un espacio virtual. Se
+ </span><span class='rm-lmr-10x-x-109'>relaciona con </span><span class='rm-lmri-10x-x-109'>4NT1 </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xanti'><span class='rm-lmr-10x-x-109'>EmilioOcelotl</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xanti'><span class='rm-lmr-10x-x-109'>2020a</span></a><span class='rm-lmr-10x-x-109'>) y
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmri-10x-x-109'>tres-estudios-abiertos </span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xtresestudios'><span class='rm-lmr-10x-x-109'>EmilioOcelotl</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xtresestudios'><span class='rm-lmr-10x-x-109'>2020c</span></a><span class='rm-lmr-10x-x-109'>) y
+</span><span class='rm-lmr-10x-x-109'>forma parte de un proyecto de investigación
+</span><span class='rm-lmr-10x-x-109'>doctoral que aborda nuevas prácticas artísticas
+</span><span class='rm-lmr-10x-x-109'>audiovisuales en el navegador a partir de lenguajes
+</span><span class='rm-lmr-10x-x-109'>de programación.</span>
+</p><!-- l. 6 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La primera instancia de </span><span class='rm-lmri-10x-x-109'>THREE.studies</span><span class='rm-lmr-10x-x-109'>, </span><span class='rm-lmri-10x-x-109'>threecln</span><span class='rm-lmr-10x-x-109'>,
+</span><span class='rm-lmr-10x-x-109'>es un performance audiovisual para el navegador.
+</span><span class='rm-lmr-10x-x-109'>Las señales de audio y video se encuentran en un
+</span><span class='rm-lmr-10x-x-109'>espacio diseñado para el evento. Los elementos del
+</span><span class='rm-lmr-10x-x-109'>escenario interactúan con las señales y proveen de
+</span><span class='rm-lmr-10x-x-109'>retroalimentación sonora y visual al intérprete
+</span><span class='rm-lmr-10x-x-109'>musical.</span>
+</p><!-- l. 8 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El espacio se fusiona con la interpretación y
+</span><span class='rm-lmr-10x-x-109'>resulta en una pieza para el navegador / partitura
+</span><span class='rm-lmr-10x-x-109'>gráfica que se transforma a sí misma cada vez que
+</span><span class='rm-lmr-10x-x-109'>se interpreta. La obra involucra a un intérprete
+</span><span class='rm-lmr-10x-x-109'>musical, para el caso que revisamos en este
+</span><span class='rm-lmr-10x-x-109'>artículo, de violonchelo eléctrico, el operador de la
+</span><span class='rm-lmr-10x-x-109'>electrónica en vivo y el equipo que mantiene la
+</span><span class='rm-lmr-10x-x-109'>estabilidad del espacio.</span>
+</p><!-- l. 10 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El intérprete musical envía un </span><span class='rm-lmri-10x-x-109'>stream </span><span class='rm-lmr-10x-x-109'>que es
+</span><span class='rm-lmr-10x-x-109'>espacializado y que interactúa con los elementos
+</span><span class='rm-lmr-10x-x-109'>visuales de la escena. El resultado es una obra /
+</span><span class='rm-lmr-10x-x-109'>partitura que puede explorarse en tiempo real por
+</span><span class='rm-lmr-10x-x-109'>el público.</span>
+</p><!-- l. 12 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Por otro lado, </span><span class='rm-lmri-10x-x-109'>4NT1 </span><span class='rm-lmr-10x-x-109'>busca problematizar las
+</span><span class='rm-lmr-10x-x-109'>relaciones que existen entre usuarios y plataformas
+</span><span class='rm-lmr-10x-x-109'>tecnológicas; es un paso hacia la realización de
+</span><span class='rm-lmr-10x-x-109'>usuarixs que desdibujan las fronteras de la pasividad
+</span><span class='rm-lmr-10x-x-109'>política y económica teniendo como epicentro lo
+</span><span class='rm-lmr-10x-x-109'>sensible. El proyecto parte de la composición visual
+</span><span class='rm-lmr-10x-x-109'>conducida por datos. Aprovecha la investigación y
+</span><span class='rm-lmr-10x-x-109'>el desarrollo de tres estudios abiertos, un proyecto
+</span><span class='rm-lmr-10x-x-109'>doctoral sobre nuevas prácticas artísticas en el
+</span><span class='rm-lmr-10x-x-109'>navegador y librerías de síntesis granular para
+</span><span class='rm-lmr-10x-x-109'>audio y video.</span>
+</p><!-- l. 14 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La obra toma en cuenta la transformación de
+</span><span class='rm-lmr-10x-x-109'>flujos de audio y video y se retroalimenta con la
+</span><span class='rm-lmr-10x-x-109'>acción de agentes externos. Con técnicas de
+</span><span class='rm-lmr-10x-x-109'>aprendizaje automático, detecta gestos faciales queson intepretados como un flujo de datos. El
+ </span><span class='rm-lmr-10x-x-109'>proyecto problematiza este flujo con el uso de
+ </span><span class='rm-lmr-10x-x-109'>tecnologías que implican una responsabilidad
+ </span><span class='rm-lmr-10x-x-109'>de los datos de usuarixs. De esta manera el
+ </span><span class='rm-lmr-10x-x-109'>proyecto pplantea una discusión que parte de la
+ </span><span class='rm-lmr-10x-x-109'>instagramización de la política y la estetización de
+ </span><span class='rm-lmr-10x-x-109'>la resistencia para desembocar en la política de la
+ </span><span class='rm-lmr-10x-x-109'>representación.</span>
+ </p><!-- l. 16 --><p class='indent'>  <span class='rm-lmri-10x-x-109'>4NT1 </span><span class='rm-lmr-10x-x-109'>es un pedazo de software que puede
+ </span><span class='rm-lmr-10x-x-109'>utilizarse en la vida cotidiana y que desplaza
+ </span><span class='rm-lmr-10x-x-109'>la ofuscación en el uso de tecnologías que
+ </span><span class='rm-lmr-10x-x-109'>funcionan como cajas negras al desarrollo de capas
+ </span><span class='rm-lmr-10x-x-109'>estéticas para la evasión. El proyecto contempla
+ </span><span class='rm-lmr-10x-x-109'>la comparación de dos caminos que permitan
+ </span><span class='rm-lmr-10x-x-109'>plantear una crítica al software como caja negra.
+ </span><span class='rm-lmr-10x-x-109'>Es un primer estudio de reflexión tecno-social.
+ </span><span class='rm-lmr-10x-x-109'>Retoma la idea de modularidad y se adscribe a los
+ </span><span class='rm-lmr-10x-x-109'>estudios del software, esto quiere decir que la obra
+ </span><span class='rm-lmr-10x-x-109'>se complementa con la programación, lectura,
+ </span><span class='rm-lmr-10x-x-109'>escritura y pensamiento con software.</span>
+ </p><!-- l. 2 --><p class='noindent'>
+ </p>
+   <h3 class='likesectionHead'><a id='x1-7000'></a><span class='rm-lmr-10x-x-109'>Discusión</span></h3>
+ <!-- l. 4 --><p class='noindent'><span class='rm-lmr-10x-x-109'>La investigación detectó funcionalidad y
+ </span><span class='rm-lmr-10x-x-109'>experimentación como dos posibilidades de un
+ </span><span class='rm-lmr-10x-x-109'>continuo para la escritura de software en un marco
+ </span><span class='rm-lmr-10x-x-109'>artístico y performático. EDGES como plataforma
+ </span><span class='rm-lmr-10x-x-109'>explicita el papel experimental de los actos,
+ </span><span class='rm-lmr-10x-x-109'>la plataforma tecnológica también podría ser
+ </span><span class='rm-lmr-10x-x-109'>experimental e incluso podría desdibujarse en pos
+ </span><span class='rm-lmr-10x-x-109'>de la integración performance-espacio bajo la
+ </span><span class='rm-lmr-10x-x-109'>misma premisa de la experimentación.</span>
+ </p><!-- l. 6 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Los eventos realizados en esta diversidad de
+ </span><span class='rm-lmr-10x-x-109'>plataformas han utilizado ligas a internet que de
+ </span><span class='rm-lmr-10x-x-109'>acuerdo a la fecha consultada, redireccionan a
+ </span><span class='rm-lmr-10x-x-109'>distintos espacios virtuales. A diferencia de los
+ </span><span class='rm-lmr-10x-x-109'>sitios que utilizan texto y entornos de programación
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10x-x-109'>web como HTML, la mezcla de módulos y el uso de
+</span><span class='rm-lmr-10x-x-109'>frameworks dedicados que utilizan renderizadores
+</span><span class='rm-lmr-10x-x-109'>3d como webGL, motores de audio como Web
+</span><span class='rm-lmr-10x-x-109'>Audio API o plataformas de transmisión de audio
+</span><span class='rm-lmr-10x-x-109'>y video personalizadas y efímeras dificultan
+</span><span class='rm-lmr-10x-x-109'>la documentación convencional. La labor se
+</span><span class='rm-lmr-10x-x-109'>complica cuando el mantenimiento de estos espacios
+</span><span class='rm-lmr-10x-x-109'>sobrepasa los alcances temporales o económicos del
+</span><span class='rm-lmr-10x-x-109'>proyecto. El reto metodológico que esto supone es
+</span><span class='rm-lmr-10x-x-109'>un asunto pendiente para las investigaciones que
+</span><span class='rm-lmr-10x-x-109'>hacen referencia a tecnología. En este sentido,
+</span><span class='rm-lmr-10x-x-109'>la referencia a repositorios de código públicos
+</span><span class='rm-lmr-10x-x-109'>podrían arrojar soluciones para la documentación y
+</span><span class='rm-lmr-10x-x-109'>arqueología de los desarrollos tecnológicos. Una
+</span><span class='rm-lmr-10x-x-109'>alternativa para la documentación de estos procesos
+</span><span class='rm-lmr-10x-x-109'>es </span><span class='rm-lmri-10x-x-109'>Wayback Machine</span><sup><a id='enmark-24' href='#ennote-24'><span class='cmr-8'>24</span></a></sup><span class='rm-lmr-10x-x-109'>.</span>
+</p><!-- l. 8 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Una de las reflexiones que estuvo presente desde
+</span><span class='rm-lmr-10x-x-109'>el inicio del proyecto partió de las distinciones más
+</span><span class='rm-lmr-10x-x-109'>inmediatas: mundos virtuales / mundos reales,
+</span><span class='rm-lmr-10x-x-109'>materialidad / inmaterialidad. Consideramos
+</span><span class='rm-lmr-10x-x-109'>que procesos como los de </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>transitan
+</span><span class='rm-lmr-10x-x-109'>entre la extensión de la fisicalidad hacia la
+</span><span class='rm-lmr-10x-x-109'>virtualidad</span><sup><a id='enmark-25' href='#ennote-25'><span class='cmr-8'>25</span></a></sup> <span class='rm-lmr-10x-x-109'>(</span><a href='#Xcyberspace'><span class='rm-lmr-10x-x-109'>Frazer</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xcyberspace'><span class='rm-lmr-10x-x-109'>2013</span></a><span class='rm-lmr-10x-x-109'>) y la reconfiguración
+</span><span class='rm-lmr-10x-x-109'>de la materialidad</span><sup><a id='enmark-26' href='#ennote-26'><span class='cmr-8'>26</span></a></sup> <span class='rm-lmr-10x-x-109'>(</span><a href='#Xandreasosa'><span class='rm-lmr-10x-x-109'>Sosa</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xandreasosa'><span class='rm-lmr-10x-x-109'>2017</span></a><span class='rm-lmr-10x-x-109'>) de cara al
+</span><span class='rm-lmr-10x-x-109'>giro digital que posibilita la continuación y
+</span><span class='rm-lmr-10x-x-109'>contraposición estéticas y formas de organización
+</span><span class='rm-lmr-10x-x-109'>social.</span>
+</p><!-- l. 10 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Señalamos la naturaleza efímera de obras y
+</span><span class='rm-lmr-10x-x-109'>espacios en la lógica digital, y consideramos que el
+</span><span class='rm-lmr-10x-x-109'>reto técnico, investigativo y de (re)activación
+</span><span class='rm-lmr-10x-x-109'>está abierto y en constante discusión. En este
+</span><span class='rm-lmr-10x-x-109'>sentido, la formación de artistas capaces de
+</span><span class='rm-lmr-10x-x-109'>interactuar y ejecutar estas piezas podría apuntar a
+</span><span class='rm-lmr-10x-x-109'>la consideración de estos aspectos en los programas
+</span><span class='rm-lmr-10x-x-109'>de interpretación musical con nuevas tecnologías.
+</span><span class='rm-lmr-10x-x-109'>Adicionalmente el aspecto formativo podría
+</span><span class='rm-lmr-10x-x-109'>extenderse hacia la investigación y escritura de
+</span><span class='rm-lmr-10x-x-109'>software.</span>
+</p><!-- l. 15 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La presente investigación estuvo relacionada
+</span><span class='rm-lmr-10x-x-109'>con la gamificación emergente</span><sup><a id='enmark-27' href='#ennote-27'><span class='cmr-8'>27</span></a></sup> <span class='rm-lmr-10x-x-109'>tácita en la     </span><span class='rm-lmr-10x-x-109'>escritura de proyectos como </span><span class='rm-lmri-10x-x-109'>Panorama</span><span class='rm-lmr-10x-x-109'>. Esto
+ </span><span class='rm-lmr-10x-x-109'>implica 1) tecnología, por ejemplo pantallas,
+ </span><span class='rm-lmr-10x-x-109'>combinaciones de teclas para la exploración de
+ </span><span class='rm-lmr-10x-x-109'>espacios pero también dispositivos de realidad
+ </span><span class='rm-lmr-10x-x-109'>virtual, 2) diseño visual y sonoro de los espacios,
+ </span><span class='rm-lmr-10x-x-109'>objetos digitales en espacios tridimensionales, audio
+ </span><span class='rm-lmr-10x-x-109'>inmersivo, 3) intercambio de información para la
+ </span><span class='rm-lmr-10x-x-109'>co-presencia en tiempo real dentro de espacios
+ </span><span class='rm-lmr-10x-x-109'>digitales o el multijugador e incluso 4) narrativas e
+ </span><span class='rm-lmr-10x-x-109'>imaginarios convenidos, explorados desde el
+ </span><span class='rm-lmr-10x-x-109'>diseño de la experiencia y esperados del lado del
+ </span><span class='rm-lmr-10x-x-109'>público.</span>
+ </p><!-- l. 21 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>El término cyberespacio</span><sup><a id='enmark-28' href='#ennote-28'><span class='cmr-8'>28</span></a></sup> <span class='rm-lmr-10x-x-109'>puede ser un punto de
+ </span><span class='rm-lmr-10x-x-109'>partida para describir la actividad relacionada con
+ </span><span class='rm-lmri-10x-x-109'>Panorama</span><span class='rm-lmr-10x-x-109'>. Puede ser contrapuesto con diversos
+ </span><span class='rm-lmr-10x-x-109'>conceptos que coinciden en la práctica, en la
+ </span><span class='rm-lmr-10x-x-109'>arquitectura de intercambio de información, en la
+ </span><span class='rm-lmr-10x-x-109'>denominación conceptual y en la convergencia de
+ </span><span class='rm-lmr-10x-x-109'>tecnologías expresamente mercantilizadas para la
+ </span><span class='rm-lmr-10x-x-109'>distribución de experiencias de Realidad Virtual
+ </span><span class='rm-lmr-10x-x-109'>(VR) como Oculus Rift. VR también puede ser un
+ </span><span class='rm-lmr-10x-x-109'>concepto inicial, socialmente convenido para
+ </span><span class='rm-lmr-10x-x-109'>describir la experiencia de </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>pero para
+ </span><span class='rm-lmr-10x-x-109'>evitar contradicciones en la conducción de una
+ </span><span class='rm-lmr-10x-x-109'>experiencia en el cyberespacio hacia exploraciones
+ </span><span class='rm-lmr-10x-x-109'>hacia dispositivos/interfaces para la interacción en
+ </span><span class='rm-lmr-10x-x-109'>estos espacios, el presente artículo decide retomar
+ </span><span class='rm-lmr-10x-x-109'>la noción de inmersividad. Consideramos que la
+ </span><span class='rm-lmr-10x-x-109'>relación entre cyberespacio como una noción
+ </span><span class='rm-lmr-10x-x-109'>narrativa y de inmersividad como una forma de
+ </span><span class='rm-lmr-10x-x-109'>resolución técnica de exploración de una cámara en
+ </span><span class='rm-lmr-10x-x-109'>un espacio tridimensional, con audio posicionado</span><sup><a id='enmark-29' href='#ennote-29'><span class='cmr-8'>29</span></a></sup><span class='rm-lmr-10x-x-109'>,
+ </span><span class='rm-lmr-10x-x-109'>puede arrojar algunas ideas sobre la actividad
+ </span><span class='rm-lmr-10x-x-109'>realizada en el marco de </span><span class='rm-lmri-10x-x-109'>Panorama</span><span class='rm-lmr-10x-x-109'>.</span>
+ </p><!-- l. 23 --><p class='indent'>   <span class='rm-lmr-10x-x-109'>Manifiestos, posturas políticas y alternativas en
+ </span><span class='rm-lmr-10x-x-109'>la organización que dialogan con la escritura de
+ </span><span class='rm-lmr-10x-x-109'>software como desarrollo tecnológico y como acto
+ </span><span class='rm-lmr-10x-x-109'>creativo. Por ejemplo </span><span class='rm-lmri-10x-x-109'>live coding </span><span class='rm-lmr-10x-x-109'>y la transparencia
+ </span><span class='rm-lmr-10x-x-109'>de los procesos o el uso de interfaces de texto
+ </span><span class='rm-lmr-10x-x-109'>(</span><a href='#XcollinsLivecoding'><span class='rm-lmr-10x-x-109'>Collins </span><span class='rm-lmri-10x-x-109'>et al.</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#XcollinsLivecoding'><span class='rm-lmr-10x-x-109'>2003</span></a><span class='rm-lmr-10x-x-109'>), el manifiesto de una servidora
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10x-x-109'>feminista (</span><a href='#Xfeministserver'><span class='rm-lmr-10x-x-109'>Feminist-Server-Summit</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xfeministserver'><span class='rm-lmr-10x-x-109'>2014</span></a><span class='rm-lmr-10x-x-109'>) o la
+</span><span class='rm-lmr-10x-x-109'>arquitectura de distribución de información
+</span><span class='rm-lmr-10x-x-109'>par a par</span><sup><a id='enmark-30' href='#ennote-30'><span class='cmr-8'>30</span></a></sup> <span class='rm-lmr-10x-x-109'>que persigue la distribución y la
+</span><span class='rm-lmr-10x-x-109'>descentralización en redes que posibilitan espacios
+</span><span class='rm-lmr-10x-x-109'>virtuales (</span><a href='#Xcyberspace'><span class='rm-lmr-10x-x-109'>Frazer</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xcyberspace'><span class='rm-lmr-10x-x-109'>2013</span></a><span class='rm-lmr-10x-x-109'>) y que incluso puede
+</span><span class='rm-lmr-10x-x-109'>extenderse al autocuidado y formas alternativas de
+</span><span class='rm-lmr-10x-x-109'>expresar relaciones sociales en red (</span><a href='#Xdwc'><span class='rm-lmr-10x-x-109'>Choi</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xdwc'><span class='rm-lmr-10x-x-109'>2018</span></a><span class='rm-lmr-10x-x-109'>).</span>
+</p><!-- l. 25 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Estas perspectivas pueden extenderse hacia
+</span><span class='rm-lmr-10x-x-109'>una postura para la investigación de tecnología
+</span><span class='rm-lmr-10x-x-109'>y el papel que juegan en la política de los
+</span><span class='rm-lmr-10x-x-109'>espacios físicos y virtuales, como el cuarto propio
+</span><span class='rm-lmr-10x-x-109'>(</span><a href='#Xcuartopropio'><span class='rm-lmr-10x-x-109'>Zafra</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#Xcuartopropio'><span class='rm-lmr-10x-x-109'>2020</span></a><span class='rm-lmr-10x-x-109'>) o el buen conocer (cita platohedro).
+</span><span class='rm-lmr-10x-x-109'>Podríamos relacionar estos procesos con el giro de
+</span><span class='rm-lmr-10x-x-109'>los nuevos medios descrito por </span><a href='#Xmanovichlanguage'><span class='rm-lmr-10x-x-109'>Manovich</span></a><span class='rm-lmr-10x-x-109'> (</span><a href='#Xmanovichlanguage'><span class='rm-lmr-10x-x-109'>2001</span></a><span class='rm-lmr-10x-x-109'>),
+</span><span class='rm-lmr-10x-x-109'>las implicaciones sociales de este giro y sobre todo,
+</span><span class='rm-lmr-10x-x-109'>las consecuencias estéticas que a partir de este se
+</span><span class='rm-lmr-10x-x-109'>abren y desenvuelven en el performance musical
+</span><span class='rm-lmr-10x-x-109'>por medio de la computadora y otras prácticas
+</span><span class='rm-lmr-10x-x-109'>afines.</span>
+</p><!-- l. 27 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>De este mapa ¿Podríamos establecer un corpus
+</span><span class='rm-lmr-10x-x-109'>de conceptos y estéticas (</span><a href='#XshankenCanon'><span class='rm-lmr-10x-x-109'>Shanken</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#XshankenCanon'><span class='rm-lmr-10x-x-109'>2010</span></a><span class='rm-lmr-10x-x-109'>) que
+</span><span class='rm-lmr-10x-x-109'>pudieran explicar las nuevas prácticas artísticas
+</span><span class='rm-lmr-10x-x-109'>con medios que implican a la música pero también
+</span><span class='rm-lmr-10x-x-109'>a otros campos, que además pudiera considerar
+</span><span class='rm-lmr-10x-x-109'>aspectos sociales y políticos implicados en la
+</span><span class='rm-lmr-10x-x-109'>música y expresiones cercanas a ésta? ¿Cómo se
+</span><span class='rm-lmr-10x-x-109'>vincularía este giro con las implicaciones políticas
+</span><span class='rm-lmr-10x-x-109'>y estéticas de la programación de software y
+</span><span class='rm-lmr-10x-x-109'>su ejecución (</span><a href='#XspeakingCode'><span class='rm-lmr-10x-x-109'>Cox y McLean</span></a><span class='rm-lmr-10x-x-109'>, </span><a href='#XspeakingCode'><span class='rm-lmr-10x-x-109'>2012</span></a><span class='rm-lmr-10x-x-109'>) de cara a
+</span><span class='rm-lmr-10x-x-109'>expresiones más claramente delimitadas hacia la
+</span><span class='rm-lmr-10x-x-109'>música y la tecnología que la posibilita?</span>
+</p><!-- l. 2 --><p class='noindent'>
+</p>
+  <h3 class='likesectionHead'><a id='x1-8000'></a><span class='rm-lmr-10x-x-109'>Conclusiones</span></h3>
+<!-- l. 6 --><p class='noindent'><span class='rm-lmr-10x-x-109'>Los usuarios pudieron compartir una experiencia
+</span><span class='rm-lmr-10x-x-109'>ligera para el navegador de manera co-presencial,
+</span><span class='rm-lmr-10x-x-109'>aprovechando las posibilidades de las tecnologías </span><span class='rm-lmr-10x-x-109'>de transmisión de audio y video. Destacamos la
+ </span><span class='rm-lmr-10x-x-109'>importancia de plantear soluciones compartibles en
+ </span><span class='rm-lmr-10x-x-109'>lo que respecta a la transmisión de audio-imagen.
+ </span><span class='rm-lmr-10x-x-109'>La escritura de esta parte de </span><span class='rm-lmri-10x-x-109'>Panorama </span><span class='rm-lmr-10x-x-109'>fue
+ </span><span class='rm-lmr-10x-x-109'>utilizado en el marco de otros eventos y ciclos.</span>
+ </p><!-- l. 8 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El proyecto no tuvo un plan de acción específico
+ </span><span class='rm-lmr-10x-x-109'>para la realización de mediciones durante los
+ </span><span class='rm-lmr-10x-x-109'>conciertos, a pesar de que el control del servidor lo
+ </span><span class='rm-lmr-10x-x-109'>permitió. Sin embargo, la lectura de información a
+ </span><span class='rm-lmr-10x-x-109'>partir de una simulación del evento arroja datos
+ </span><span class='rm-lmr-10x-x-109'>importantes en este sentido.</span>
+ </p><!-- l. 10 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Sobre las impresiones del público, fue posible
+ </span><span class='rm-lmr-10x-x-109'>realizar un cuestionario durante </span><span class='rm-lmri-10x-x-109'>Pruebas Proféticas</span><span class='rm-lmr-10x-x-109'>.</span>
+ </p><!-- l. 12 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>La importancia de una infraestructura tecnológica
+ </span><span class='rm-lmr-10x-x-109'>y social. Esto se puede entretejer a partir de
+ </span><span class='rm-lmr-10x-x-109'>decisiones curatoriales que vinculan potencial
+ </span><span class='rm-lmr-10x-x-109'>tecnológico con alianzas entre actores.</span>
+ </p><!-- l. 14 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Del lado teórico es necesario convenir y reforzar
+ </span><span class='rm-lmr-10x-x-109'>un corpus de conceptos para la investigación sobre
+ </span><span class='rm-lmr-10x-x-109'>Tecnología Musical. Detección de campos y
+ </span><span class='rm-lmr-10x-x-109'>persectivas de investigación: las agencias que están
+ </span><span class='rm-lmr-10x-x-109'>presentes en eventos que se desenvuelven con
+ </span><span class='rm-lmr-10x-x-109'>tecnología.</span>
+ </p><!-- l. 16 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>Destacamos el giro de los nuevos medios como un
+ </span><span class='rm-lmr-10x-x-109'>cambio de paradigma que la tecnología musical debe
+ </span><span class='rm-lmr-10x-x-109'>considerar por las implicaciones de los usos/críticas
+ </span><span class='rm-lmr-10x-x-109'>de las tecnologías de la información, las tendencias
+ </span><span class='rm-lmr-10x-x-109'>para la resolución de problemas relacionados con
+ </span><span class='rm-lmr-10x-x-109'>gestión de datos y las consecuencias estéticas que a
+ </span><span class='rm-lmr-10x-x-109'>veces se empalman y otras rebasan a la música y las
+ </span><span class='rm-lmr-10x-x-109'>perspectivas de investigación asociadas a esta
+ </span><span class='rm-lmr-10x-x-109'>disciplina.</span>
+ </p><!-- l. 18 --><p class='indent'>  <span class='rm-lmr-10x-x-109'>El rodeo o la realización de un motivo tecnológico
+ </span><span class='rm-lmr-10x-x-109'>como una perspectiva de investigación que
+ </span><span class='rm-lmr-10x-x-109'>pueda aportar en el aspecto tecnológico y
+ </span><span class='rm-lmr-10x-x-109'>teórico-metodológico, sobre todo en campos
+ </span><span class='rm-lmr-10x-x-109'>que lo permiten como humanidades, artes y
+ </span><span class='rm-lmr-10x-x-109'>específicamente, investigación que implica musica y
+ </span><span class='rm-lmr-10x-x-109'>expresiones audiovisuales con tecnología.</span>
+                                                                                         
+
+                                                                                         
+</p><!-- l. 61 --><p class='noindent'>
+</p>
+  <h3 class='likesectionHead'><a id='x1-9000'></a><span class='rm-lmr-10x-x-109'>Notas</span></h3>
+<!-- l. 61 --><p class='noindent'></p><!-- l. 4 --><p class='indent'>  <a id='ennote-1' href='#enmark-1'><sup><span class='cmr-7'>1</span></sup></a><span class='rm-lmr-10'>“PiranhaLab  es  un  laboratorio  interdisciplinario
+</span><span class='rm-lmr-10'>que       trabaja       en       las       tripas       del
+</span><span class='rm-lmr-10'>software”. </span><a class='url' href='https://piranhalab.github.io/'><span class='rm-lmr-10'>https://piranhalab.github.io/</span></a> <span class='rm-lmr-10'>(Consultado
+</span><span class='rm-lmr-10'>el 26 de marzo de 2021)</span>
+</p><!-- l. 26 --><p class='indent'>  <a id='ennote-2' href='#enmark-2'><sup><span class='cmr-7'>2</span></sup></a><span class='rm-lmr-10'>“Plataforma  de  experimentación  y  difusión  de
+</span><span class='rm-lmr-10'>proyectos  audiovisuales  en  vivo”  impulsada  por
+</span><span class='rm-lmr-10'>el  Laboratorio  de  Imágenes  en  Movimiento  del
+</span><span class='rm-lmr-10'>Centro Multimedia del Centro Nacional de las Artes.</span>
+<a class='url' href='https://www.facebook.com/events/209679013466792'><span class='rm-lmr-10'>https://www.facebook.com/events/209679013466792</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 63 --><p class='indent'>  <a id='ennote-3' href='#enmark-3'><sup><span class='cmr-7'>3</span></sup></a><a class='url' href='https://notasdeausencia.cc'><span class='rm-lmr-10'>https://notasdeausencia.cc</span></a> <span class='rm-lmr-10'>(Consultado el 26 de
+</span><span class='rm-lmr-10'>marzo de 2021)</span>
+</p><!-- l. 73 --><p class='indent'>  <a id='ennote-4' href='#enmark-4'><sup><span class='cmr-7'>4</span></sup></a><a class='url' href='https://edges.piranhalab.cc'><span class='rm-lmr-10'>https://edges.piranhalab.cc</span></a> <span class='rm-lmr-10'>(Consultado el 26 de
+</span><span class='rm-lmr-10'>marzo de 2021)</span>
+</p><!-- l. 83 --><p class='indent'>  <a id='ennote-5' href='#enmark-5'><sup><span class='cmr-7'>5</span></sup></a><a class='url' href='https://threecln.piranhalab.cc'><span class='rm-lmr-10'>https://threecln.piranhalab.cc</span></a><span class='rm-lmr-10'>(Consultado        el
+</span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+</p><!-- l. 92 --><p class='indent'>  <a id='ennote-6' href='#enmark-6'><sup><span class='cmr-7'>6</span></sup></a><a class='url' href='https://www.facebook.com/AlgoritmiTorino/about/'><span class='rm-lmr-10'>https://www.facebook.com/AlgoritmiTorino/about/</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 102 --><p class='indent'>  <a id='ennote-7' href='#enmark-7'><sup><span class='cmr-7'>7</span></sup></a><a class='url' href='https://hubs.mozilla.com/'><span class='rm-lmr-10'>https://hubs.mozilla.com/</span></a>  <span class='rm-lmr-10'>(Consultado  el  26 de
+</span><span class='rm-lmr-10'>marzo de 2021)</span>
+</p><!-- l. 112 --><p class='indent'>  <a id='ennote-8' href='#enmark-8'><sup><span class='cmr-7'>8</span></sup></a><span class='rm-lmr-10'>TOPLAP         México:         VR         Algorave</span>
+<a class='url' href='https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/'><span class='rm-lmr-10'>https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 126 --><p class='indent'>  <a id='ennote-9' href='#enmark-9'><sup><span class='cmr-7'>9</span></sup></a><a class='url' href='https://www.youtube.com/c/Eulerroom/videos'><span class='rm-lmr-10'>https://www.youtube.com/c/Eulerroom/videos</span></a><span class='rm-lmr-10'>(Consultado
+</span><span class='rm-lmr-10'>el 26 de marzo de 2021)</span>
+</p><!-- l. 135 --><p class='indent'>  <a id='ennote-10' href='#enmark-10'><sup><span class='cmr-7'>10</span></sup></a><span class='rm-lmr-10'>La      documentación      es      escasa.      Ver:</span>
+<a class='url' href='https://www.instagram.com/p/B_bdw_TlrKa'><span class='rm-lmr-10'>https://www.instagram.com/p/B</span>_<span class='rm-lmr-10'>bdw</span>_<span class='rm-lmr-10'>TlrKa</span></a>
+<span class='rm-lmr-10'>(Consultado  el  26 de  marzo de 2021),  también:</span>
+<a class='url' href='https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321'><span class='rm-lmr-10'>https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 157 --><p class='indent'>  <a id='ennote-11' href='#enmark-11'><sup><span class='cmr-7'>11</span></sup></a><span class='rm-lmri-10'>A-frame     </span><span class='rm-lmr-10'>es     “un     marco     de     trabajo
+</span><span class='rm-lmr-10'>para construir experiencias de realidad virtual(VR)”.</span>
+<a class='url' href='https://aframe.io/docs/1.2.0/introduction/'><span class='rm-lmr-10'>https://aframe.io/docs/1.2.0/introduction/</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 180 --><p class='indent'>  <a id='ennote-12' href='#enmark-12'><sup><span class='cmr-7'>12</span></sup></a><span class='rm-lmr-10'>“Laboratorio           de           Experimentación,
+</span><span class='rm-lmr-10'>Improvisación         y         Nuevos         Medios”.</span>
+<a class='url' href='https://www.instagram.com/si.nestes.ia/'><span class='rm-lmr-10'>https://www.instagram.com/si.nestes.ia/</span></a><span class='rm-lmr-10'>(Consultado
+</span><span class='rm-lmr-10'>el 26 de marzo de 2021)</span>
+</p><!-- l. 196 --><p class='indent'>  <a id='ennote-13' href='#enmark-13'><sup><span class='cmr-7'>13</span></sup></a><a class='url' href='https://zeyxlab.com/'><span class='rm-lmr-10'>https://zeyxlab.com/</span></a><span class='rm-lmr-10'>(Consultado      el      26 de
+</span><span class='rm-lmr-10'>marzo de 2021)</span>
+</p><!-- l. 205 --><p class='indent'>  <a id='ennote-14' href='#enmark-14'><sup><span class='cmr-7'>14</span></sup></a><span class='rm-lmr-10'>“El proyecto de three.js apunta a la creación de
+</span><span class='rm-lmr-10'>una librería 3D fácil de usar, ligera, multinavegador,   </span><span class='rm-lmr-10'>multipropósito”. </span><a class='url' href='https://threejs.org/'><span class='rm-lmr-10'>https://threejs.org/</span></a> <span class='rm-lmr-10'>(Consultado el
+  </span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+  </p><!-- l. 233 --><p class='indent'>    <a id='ennote-15' href='#enmark-15'><sup><span class='cmr-7'>15</span></sup></a><a class='url' href='https://calindros.site/'><span class='rm-lmr-10'>https://calindros.site/</span></a>   <span class='rm-lmr-10'>(Consultado   el   26 de
+  </span><span class='rm-lmr-10'>marzo de 2021)</span>
+  </p><!-- l. 243 --><p class='indent'>    <a id='ennote-16' href='#enmark-16'><sup><span class='cmr-7'>16</span></sup></a><a class='url' href='https://echoic.space/'><span class='rm-lmr-10'>https://echoic.space/</span></a>    <span class='rm-lmr-10'>(Consultado    el    26 de
+  </span><span class='rm-lmr-10'>marzo de 2021)</span>
+  </p><!-- l. 253 --><p class='indent'>    <a id='ennote-17' href='#enmark-17'><sup><span class='cmr-7'>17</span></sup></a><a class='url' href='https://www.khronos.org/webgl/'><span class='rm-lmr-10'>https://www.khronos.org/webgl/</span></a><span class='rm-lmr-10'>(Consultado   el
+  </span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+  </p><!-- l. 262 --><p class='indent'>    <a id='ennote-18' href='#enmark-18'><sup><span class='cmr-7'>18</span></sup></a><span class='rm-lmr-10'>“La  API  de  Audio  Web  provee  un  sistema
+  </span><span class='rm-lmr-10'>poderoso   y   versatil   para   controlar   audio   en
+  </span><span class='rm-lmr-10'>la    Web,    permitiendo    a    los    desarrolladores
+  </span><span class='rm-lmr-10'>escoger   fuentes   de   audio,   agregar   efectos   al
+  </span><span class='rm-lmr-10'>audio,   crear   visualizaciones   de   audios,   aplicar
+  </span><span class='rm-lmr-10'>efectos  espaciales  (como  paneo)  y  mucho  más.”</span>
+  <a class='url' href='https://developer.mozilla.org/es/docs/Web/API/Web_Audio_API'><span class='rm-lmr-10'>https://developer.mozilla.org/es/docs/Web/API/Web</span>_<span class='rm-lmr-10'>Audio</span>_<span class='rm-lmr-10'>API</span></a>
+  <span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+  </p><!-- l. 313 --><p class='indent'>    <a id='ennote-19' href='#enmark-19'><sup><span class='cmr-7'>19</span></sup></a><span class='rm-lmr-10'>“WebAssembly  es  un  nuevo  tipo  de  código  que
+  </span><span class='rm-lmr-10'>puede  ser  ejecutado  en  navegadores  modernos  —
+  </span><span class='rm-lmr-10'>es  un  lenguaje  de  bajo  nivel,  similar  al  lenguaje
+  </span><span class='rm-lmr-10'>ensamblador,  con  un  formato  binario  compacto”.</span>
+  <a class='url' href='https://developer.mozilla.org/es/docs/WebAssembly'><span class='rm-lmr-10'>https://developer.mozilla.org/es/docs/WebAssembly</span></a>
+  <span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+  </p><!-- l. 354 --><p class='indent'>    <a id='ennote-20' href='#enmark-20'><sup><span class='cmr-7'>20</span></sup></a><span class='rm-lmr-10'>“WebSockets es una tecnología avanzada que hace
+  </span><span class='rm-lmr-10'>posible abrir una sesión de comunicación interactiva
+  </span><span class='rm-lmr-10'>entre  el  navegador  del  usuario  y  un  servidor.”</span>
+  <a class='url' href='https://developer.mozilla.org/es/docs/Web/API/WebSockets_API'><span class='rm-lmr-10'>https://developer.mozilla.org/es/docs/Web/API/WebSockets</span>_<span class='rm-lmr-10'>API</span></a><span class='rm-lmr-10'>(Consultado
+  </span><span class='rm-lmr-10'>el 26 de marzo de 2021)</span>
+  </p><!-- l. 385 --><p class='indent'>    <a id='ennote-21' href='#enmark-21'><sup><span class='cmr-7'>21</span></sup></a><span class='rm-lmr-10'>“Nginx es un servidor web/proxy inverso ligero de
+  </span><span class='rm-lmr-10'>alto                                              rendimiento”.</span>
+  <a class='url' href='https://es.wikipedia.org/wiki/Nginx'><span class='rm-lmr-10'>https://es.wikipedia.org/wiki/Nginx</span></a><span class='rm-lmr-10'>(Consultado   el
+  </span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+  </p><!-- l. 404 --><p class='indent'>    <a id='ennote-22' href='#enmark-22'><sup><span class='cmr-7'>22</span></sup></a><span class='rm-lmr-10'>“FFmpeg es el marco de trabajo multimedia líder
+  </span><span class='rm-lmr-10'>capaz de decodificar, codificar, transcodificar, mux,
+  </span><span class='rm-lmr-10'>demux, transmitir, filtrar y reproducir casi cualquier
+  </span><span class='rm-lmr-10'>cosa que los humanos o las máquinas hayan creado”.</span>
+  <a class='url' href='https://www.ffmpeg.org/about.html'><span class='rm-lmr-10'>https://www.ffmpeg.org/about.html</span></a><span class='rm-lmr-10'>(Consultado   el
+  </span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+  </p><!-- l. 443 --><p class='indent'>    <a id='ennote-23' href='#enmark-23'><sup><span class='cmr-7'>23</span></sup></a><a class='url' href='https://twitter.com/notasausencia'><span class='rm-lmr-10'>https://twitter.com/notasausencia</span></a> <span class='rm-lmr-10'>(Consultado el
+  </span><span class='rm-lmr-10'>26 de marzo de 2021)</span>
+  </p><!-- l. 453 --><p class='indent'>    <a id='ennote-24' href='#enmark-24'><sup><span class='cmr-7'>24</span></sup></a><span class='rm-lmr-10'>“</span><span class='rm-lmri-10'>The  Wayback  Machine  </span><span class='rm-lmr-10'>es  una  iniciative  de
+  </span><span class='rm-lmr-10'>Internet Archive para construir una librería digital
+  </span><span class='rm-lmr-10'>de sitios de Internet y otros artefactos culturales en
+  </span><span class='rm-lmr-10'>formato         digital”.         </span><a class='url' href='http://web.archive.org/'><span class='rm-lmr-10'>http://web.archive.org/</span></a>
+  <span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+  </p><!-- l. 489 --><p class='indent'>    <a id='ennote-25' href='#enmark-25'><sup><span class='cmr-7'>25</span></sup></a><span class='rm-lmr-10'>‘la  trascendencia  de  la  fisicalidad  del  mundo
+                                                                                         
+
+                                                                                         
+</span><span class='rm-lmr-10'>virtual  nos  permite  extender  nuestro  modo  de
+</span><span class='rm-lmr-10'>operación en el mundo físico. Nuevas formas de viaje,
+</span><span class='rm-lmr-10'>una nueva forma de comunicación, una nueva forma
+</span><span class='rm-lmr-10'>de operación, un nuevo medio de expresión”pp. 49</span>
+</p><!-- l. 533 --><p class='indent'>  <a id='ennote-26' href='#enmark-26'><sup><span class='cmr-7'>26</span></sup></a><span class='rm-lmr-10'>“el arte no solamente podría ser performeado en el
+</span><span class='rm-lmr-10'>plano sensorial, sino también en el plano inteligible.
+</span><span class='rm-lmr-10'>Las  estéticas  de  la  participación  y  la  constitución
+</span><span class='rm-lmr-10'>de los medios digitales podrían intepretarse como la
+</span><span class='rm-lmr-10'>continuación de algunos de esos prinicipios.”pp 190</span>
+</p><!-- l. 578 --><p class='indent'>  <a id='ennote-27' href='#enmark-27'><sup><span class='cmr-7'>27</span></sup></a><span class='rm-lmr-10'>O  Ludificación,  del  inglés  </span><span class='rm-lmri-10'>gamification</span><span class='rm-lmr-10'>.  Para</span>
+<a href='#Xgamificacion'><span class='rm-lmr-10'>Hamari</span></a><span class='rm-lmr-10'> (</span><a href='#Xgamificacion'><span class='rm-lmr-10'>2019</span></a><span class='rm-lmr-10'>) existe la gamificación intencional y
+</span><span class='rm-lmr-10'>emergente.  El  presente  artículo  hace  referencia  a
+</span><span class='rm-lmr-10'>la segunda: “la gamificación se puede definir como
+</span><span class='rm-lmr-10'>un proceso cultural gradual y emergente, aunque no
+</span><span class='rm-lmr-10'>intencional, derivada del compromiso cada vez más
+</span><span class='rm-lmr-10'>generalizado con los juegos e interacciones lúdicas.”</span>
+</p><!-- l. 633 --><p class='indent'>  <a id='ennote-28' href='#enmark-28'><sup><span class='cmr-7'>28</span></sup></a><span class='rm-lmr-10'>“El   término   cyberespacio   puede   ser   usado
+</span><span class='rm-lmr-10'>vagamente para describir la interconexión espacial e
+</span><span class='rm-lmr-10'>invisible de computadoras en el Internet y es aplicado
+</span><span class='rm-lmr-10'>a casi cualquier experiencia espacial y virtual creada
+</span><span class='rm-lmr-10'>en una computadora” (</span><a href='#Xcyberspace'><span class='rm-lmr-10'>Frazer</span></a><span class='rm-lmr-10'>, </span><a href='#Xcyberspace'><span class='rm-lmr-10'>2013</span></a><span class='rm-lmr-10'>)</span>
+</p><!-- l. 672 --><p class='indent'>  <a id='ennote-29' href='#enmark-29'><sup><span class='cmr-7'>29</span></sup></a><span class='rm-lmr-10'>“En  </span><span class='rm-lmri-10'>Web  Audio</span><span class='rm-lmr-10'>,  espacializaciones  complejas  en
+</span><span class='rm-lmr-10'>3D  son  creadas  utilizando  PannerNode,  que  en
+</span><span class='rm-lmr-10'>términos legos básicamente son muchas matemáticas
+</span><span class='rm-lmri-10'>cool  </span><span class='rm-lmr-10'>para  hacer  que  el  audio  aparezca  en  un
+</span><span class='rm-lmr-10'>espacio  3D.  Piensa  en  el  audio  volando  sobre  de
+</span><span class='rm-lmr-10'>ti,  trepando  atras  de  ti,  moviéndose  enfrente  de
+</span><span class='rm-lmr-10'>ti”</span><a class='url' href='https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics'><span class='rm-lmr-10'>https://developer.mozilla.org/en-US/docs/Web/API/Web</span>_<span class='rm-lmr-10'>Audio</span>_<span class='rm-lmr-10'>API/Web</span>_<span class='rm-lmr-10'>audio</span>_<span class='rm-lmr-10'>spatialization</span>_<span class='rm-lmr-10'>basics</span></a>
+<span class='rm-lmr-10'>(Consultado el 26 de marzo de 2021)</span>
+</p><!-- l. 730 --><p class='indent'>  <a id='ennote-30' href='#enmark-30'><sup><span class='cmr-7'>30</span></sup></a><span class='rm-lmri-10'>P2P   </span><span class='rm-lmr-10'>(par  a  par)  por  sus  siglas  en  inglés.
+</span><span class='rm-lmr-10'>“La  arquitectura  de  una  red  distribuida  puede
+</span><span class='rm-lmr-10'>ser  llamada  Par  a  Par  (P-to-P,  P2P,  ...)  si  los
+</span><span class='rm-lmr-10'>participantes  comparten  una  parte  de  los  recursos
+</span><span class='rm-lmr-10'>de  su  propio  software  (poder  de  procesamiento,
+</span><span class='rm-lmr-10'>capacidad de almacenamiento, capacidad de conexión
+</span><span class='rm-lmr-10'>a la red, impresoras,...) Estos recursos compartidos
+</span><span class='rm-lmr-10'>son necesarios para proveer el Servicio y el contenido
+</span><span class='rm-lmr-10'>ofrecido  por  la  red...  Estos  son  accedidos  por
+</span><span class='rm-lmr-10'>otros  pares  directamente  sin  pasar  por  entidades
+</span><span class='rm-lmr-10'>intermediarias.”(</span><a href='#Xp2p'><span class='rm-lmr-10'>Schollmeier</span></a><span class='rm-lmr-10'>, </span><a href='#Xp2p'><span class='rm-lmr-10'>2001</span></a><span class='rm-lmr-10'>)</span>
+<a id='Q1-1-10'></a>
+</p><!-- l. 1 --><p class='noindent'>                                               </p>
+     <h3 class='likesectionHead'><a id='x1-10000'></a><span class='rm-lmr-10x-x-109'>Referencias</span></h3>
+ <!-- l. 1 --><p class='noindent'>
+     </p><div class='thebibliography'>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xdwc'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>Choi, T. (2018).  Distributed web of care.</span>
+     <a class='url' href='http://distributedweb.care/'><span class='rm-lmr-10x-x-109'>http://distributedweb.care/</span></a><span class='rm-lmr-10x-x-109'>.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='XcollinsLivecoding'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Collins,  N.,  McLean,  A.,  Rohruber,  J.,  y
+     </span><span class='rm-lmr-10x-x-109'>Ward, A. (2003).  Live coding techniques for
+     </span><span class='rm-lmr-10x-x-109'>laptop performance. </span><span class='rm-lmri-10x-x-109'>Organised Sound</span><span class='rm-lmr-10x-x-109'>, 8(3).</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='XspeakingCode'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Cox,  G.  y  McLean,  A.  (2012).   </span><span class='rm-lmri-10x-x-109'>Speaking
+    </span><span class='rm-lmri-10x-x-109'>Code:  Coding  as  Aesthetic  and  Political
+    </span><span class='rm-lmri-10x-x-109'>Expression</span><span class='rm-lmr-10x-x-109'>. The MIT Press.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xcamposonico'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>    </span><span class='rm-lmr-10x-x-109'>diegodvc    (2020).           Camposonico.</span>
+     <a class='url' href='https://github.com/diegovdc/camposonico'><span class='rm-lmr-10x-x-109'>https://github.com/diegovdc/camposonico</span></a><span class='rm-lmr-10x-x-109'>.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xanti'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>     </span><span class='rm-lmr-10x-x-109'>EmilioOcelotl     (2020a).              anti.</span>
+     <a class='url' href='https://github.com/EmilioOcelotl/anti'><span class='rm-lmr-10x-x-109'>https://github.com/EmilioOcelotl/anti</span></a><span class='rm-lmr-10x-x-109'>.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xthreestudies'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>   </span><span class='rm-lmr-10x-x-109'>EmilioOcelotl   (2020b).      Three.studies.</span>
+     <a class='url' href='https://github.com/EmilioOcelotl/THREE.studies'><span class='rm-lmr-10x-x-109'>https://github.com/EmilioOcelotl/THREE.studies</span></a><span class='rm-lmr-10x-x-109'>.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xtresestudios'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>               </span><span class='rm-lmr-10x-x-109'>EmilioOcelotl               (2020c).
+     </span><span class='rm-lmr-10x-x-109'>tres-estudios-abiertos.</span>
+     <a class='url' href='https://github.com/EmilioOcelotl/tres-estudios-abiertos'><span class='rm-lmr-10x-x-109'>https://github.com/EmilioOcelotl/tres-estudios-abiertos</span></a><span class='rm-lmr-10x-x-109'>.</span>
+                                                                                         
+
+                                                                                         
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xen-vivo'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>federaciondecodigoalvuelo (2020).  en-vivo.</span>
+  <a class='url' href='https://github.com/federacion-de-codigo-al-vuelo/en-vivo'><span class='rm-lmr-10x-x-109'>https://github.com/federacion-de-codigo-al-vuelo/en-vivo</span></a><span class='rm-lmr-10x-x-109'>.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xfeministserver'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>         </span><span class='rm-lmr-10x-x-109'>Feminist-Server-Summit         (2014).
+  </span><span class='rm-lmr-10x-x-109'>A     feminist     server     manifesto     0.01.</span>
+  <a class='url' href='https://areyoubeingserved.constantvzw.org/Summit_afterlife.xhtml'><span class='rm-lmr-10x-x-109'>https://areyoubeingserved.constantvzw.org/Summit</span>_<span class='rm-lmr-10x-x-109'>afterlife.xhtml</span></a><span class='rm-lmr-10x-x-109'>.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xcyberspace'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Frazer,  J.  (2013).      The  architectural
+  </span><span class='rm-lmr-10x-x-109'>relevance  of  cyberspace  (1995).   En  Carpo,
+  </span><span class='rm-lmr-10x-x-109'>M., editor, </span><span class='rm-lmri-10x-x-109'>The Digital Turn in Architecture
+  </span><span class='rm-lmri-10x-x-109'>1992–2012</span><span class='rm-lmr-10x-x-109'>, pp. 48–56. John Wiley and Sons,
+  </span><span class='rm-lmr-10x-x-109'>Ltd.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xgamificacion'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>Hamari, J. (2019).  Gamification.  En </span><span class='rm-lmri-10x-x-109'>The
+  </span><span class='rm-lmri-10x-x-109'>Blackwell Encyclopedia of Sociology</span><span class='rm-lmr-10x-x-109'>, pp. 1–3.
+  </span><span class='rm-lmr-10x-x-109'>American Cancer Society.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xmanovichlanguage'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>Manovich, L. (2001). </span><span class='rm-lmri-10x-x-109'>The Language of New
+  </span><span class='rm-lmri-10x-x-109'>Media</span><span class='rm-lmr-10x-x-109'>. Leonardo (Series) (Cambridge, Mass.).
+  </span><span class='rm-lmr-10x-x-109'>MIT Press.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xnotasdeausencia'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>MarianneTeixido (2020).  notasdeausencia.</span>
+  <a class='url' href='https://github.com/MarianneTeixido/notasdeausencia'><span class='rm-lmr-10x-x-109'>https://github.com/MarianneTeixido/notasdeausencia</span></a><span class='rm-lmr-10x-x-109'>.</span>
+  </p>
+  <p class='bibitem'><span class='biblabel'>
+<a id='Xhydra'></a><span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>       </span><span class='rm-lmr-10x-x-109'>ojack       (2020).                    hydra.</span>
+  <a class='url' href='https://github.com/ojack/hydra'><span class='rm-lmr-10x-x-109'>https://github.com/ojack/hydra</span></a><span class='rm-lmr-10x-x-109'>.</span>
+  </p>                                               <p class='bibitem'><span class='biblabel'>
+<a id='Xpanorama'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>rexmalebka (2020).  p2p-game-networking.</span>
+     <a class='url' href='https://github.com/rexmalebka/p2p-game-networking'><span class='rm-lmr-10x-x-109'>https://github.com/rexmalebka/p2p-game-networking</span></a><span class='rm-lmr-10x-x-109'>.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xp2p'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Schollmeier,  R.  (2001).    A  definition  of
+     </span><span class='rm-lmr-10x-x-109'>peer-to-peer networking for the classification
+     </span><span class='rm-lmr-10x-x-109'>of peer-to-peer architectures and applications.
+     </span><span class='rm-lmr-10x-x-109'>pp. 101 – 102.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='XshankenCanon'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Shanken,  E. A.  (2010).   Historicizing  art
+     </span><span class='rm-lmr-10x-x-109'>and technology: Forging a method and firing
+     </span><span class='rm-lmr-10x-x-109'>a  canon.   En  Grau,  O.,  editor,  </span><span class='rm-lmri-10x-x-109'>Media  Art
+    </span><span class='rm-lmri-10x-x-109'>Histories</span><span class='rm-lmr-10x-x-109'>, pp. 43–70. The MIT Press.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xandreasosa'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span> </span><span class='rm-lmr-10x-x-109'>Sosa, A. (2017).  Hello, world. The artist’s
+     </span><span class='rm-lmr-10x-x-109'>palette using new media among atoms, bits,
+     </span><span class='rm-lmr-10x-x-109'>and
+     </span><span class='rm-lmr-10x-x-109'>connectivity.    En  Julián  Jaramillo Arango,
+     </span><span class='rm-lmr-10x-x-109'>Andrés Burbano, F. C. L. y Mejía, G. M.,
+     </span><span class='rm-lmr-10x-x-109'>editores, </span><span class='rm-lmri-10x-x-109'>Proceedings of the 23rd International
+    </span><span class='rm-lmri-10x-x-109'>Symposium on Electronic Arts</span><span class='rm-lmr-10x-x-109'>, pp. 187–201.
+     </span><span class='rm-lmr-10x-x-109'>Departament of Visual Design, Universidad de
+     </span><span class='rm-lmr-10x-x-109'>Caldas, ISEA International.</span>
+     </p>
+     <p class='bibitem'><span class='biblabel'>
+<a id='Xcuartopropio'></a> <span class='bibsp'><span class='rm-lmr-10x-x-109'>   </span></span>  </span><span class='rm-lmr-10x-x-109'>Zafra,  R.  (2020).      Un  cuarto  propio
+     </span><span class='rm-lmr-10x-x-109'>conectado.       feminismo       y       creación
+     </span><span class='rm-lmr-10x-x-109'>desde   la   esfera   público-privada   online.</span>
+     <a class='url' href='https://www.remedioszafra.net/text_rzafra10.pdf'><span class='rm-lmr-10x-x-109'>https://www.remedioszafra.net/text</span>_<span class='rm-lmr-10x-x-109'>rzafra10.pdf</span></a><span class='rm-lmr-10x-x-109'>.</span>
+ </p>
+     </div>
+      
+</body> 
+</html>
