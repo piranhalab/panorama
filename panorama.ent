@@ -1,5 +1,3 @@
-\def
-\endnoteN{1}
 \@doanenote {1}
 macro:->``PiranhaLab
 es
@@ -20,8 +18,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{2}
 \@doanenote {2}
 macro:->``Plataforma
 de
@@ -57,8 +53,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{3}
 \@doanenote {3}
 macro:->\url
 {https://notasdeausencia.cc}
@@ -67,8 +61,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{4}
 \@doanenote {4}
 macro:->\url
 {https://edges.piranhalab.cc}
@@ -77,8 +69,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{5}
 \@doanenote {5}
 macro:->\url
 {https://threecln.piranhalab.cc}(Consultado
@@ -86,8 +76,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{6}
 \@doanenote {6}
 macro:->\url
 {https://www.facebook.com/AlgoritmiTorino/about/}
@@ -96,8 +84,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{7}
 \@doanenote {7}
 macro:->\url
 {https://hubs.mozilla.com/}
@@ -106,8 +92,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{8}
 \@doanenote {8}
 macro:->\url
 {https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/}
@@ -116,8 +100,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{9}
 \@doanenote {9}
 macro:->\url
 {https://www.youtube.com/c/Eulerroom/videos}(Consultado
@@ -125,8 +107,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{10}
 \@doanenote {10}
 macro:->La
 documentación
@@ -147,8 +127,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{11}
 \@doanenote {11}
 macro:->\textit
 {A-frame}
@@ -170,8 +148,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{12}
 \@doanenote {12}
 macro:->``Laboratorio
 de
@@ -186,8 +162,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{13}
 \@doanenote {13}
 macro:->\url
 {https://zeyxlab.com/}(Consultado
@@ -195,8 +169,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{14}
 \@doanenote {14}
 macro:->``El
 proyecto
@@ -223,8 +195,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{15}
 \@doanenote {15}
 macro:->\url
 {https://calindros.site/}
@@ -233,8 +203,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{16}
 \@doanenote {16}
 macro:->\url
 {https://echoic.space/}
@@ -243,8 +211,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{17}
 \@doanenote {17}
 macro:->\url
 {https://www.khronos.org/webgl/}(Consultado
@@ -252,8 +218,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{18}
 \@doanenote {18}
 macro:->``La
 API
@@ -303,8 +267,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{19}
 \@doanenote {19}
 macro:->``WebAssembly
 es
@@ -344,8 +306,6 @@ el
 )
 
 \@endanenote 
-\def
-\endnoteN{20}
 \@doanenote {20}
 macro:->``WebSockets
 es
@@ -375,8 +335,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{21}
 \@doanenote {21}
 macro:->``Nginx
 es
@@ -394,8 +352,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{22}
 \@doanenote {22}
 macro:->``FFmpeg
 es
@@ -433,8 +389,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{23}
 \@doanenote {23}
 macro:->\url
 {https://twitter.com/notasausencia}
@@ -443,8 +397,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{24}
 \@doanenote {24}
 macro:->``\textit
 {The
@@ -479,8 +431,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{25}
 \@doanenote {25}
 macro:->`la
 trascendencia
@@ -523,8 +473,6 @@ expresión"
 pp.
 49
 \@endanenote 
-\def
-\endnoteN{26}
 \@doanenote {26}
 macro:->``el
 arte
@@ -568,8 +516,6 @@ prinicipios."
 pp
 190
 \@endanenote 
-\def
-\endnoteN{27}
 \@doanenote {27}
 macro:->O
 Ludificación,
@@ -623,8 +569,6 @@ e
 interacciones
 lúdicas."
 \@endanenote 
-\def
-\endnoteN{28}
 \@doanenote {28}
 macro:->``El
 término
@@ -662,8 +606,6 @@ computadora''
 \citep
 {cyberspace}
 \@endanenote 
-\def
-\endnoteN{29}
 \@doanenote {29}
 macro:->``En
 \textit
@@ -720,8 +662,6 @@ el
 \today
 )
 \@endanenote 
-\def
-\endnoteN{30}
 \@doanenote {30}
 macro:->\textit
 {P2P}
