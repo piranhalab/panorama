@@ -93,11 +93,7 @@ el
 )
 \@endanenote 
 \@doanenote {8}
-macro:->TOPLAP
-México:
-VR
-Algorave
-\url
+macro:->\url
 {https://networkmusicfestival.org/programme/performances/toplap-mexico-vr-algorave/}
 (Consultado
 el
@@ -122,8 +118,8 @@ Ver:
 (Consultado
 el
 \today
-),
-también:
+)
+y
 \url
 {https://medium.com/@desyfree/musicaenvivocovid19-79e570a8f321}
 (Consultado

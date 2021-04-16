@@ -129,7 +129,7 @@ Css: div.maketitle{ margin-bottom: 2em; }
 Css: div.author, div.date {text-align:center;}
 Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
 Css: div.author{white-space: nowrap;}
-Font_Size: 12
+Font_Size: 11
 Css: .abstract p {margin-left:5%; margin-right:5%;}
 Css: div.abstract {width:100%;}
 Css: figure.float, div.figure {margin-left: auto; margin-right: auto;}
@@ -150,15 +150,22 @@ Css: table.multline, table.multline-star {width:100%;}
 Css: td.gather {text-align:center; }
 Css: table.gather {width:100%;}
 Css: div.gather-star {text-align:center;}
+Css: .rotatebox{display: inline-block;}
+Css: .uline{ text-decoration:underline; }
+Css: .uuline{ text-decoration:underline; }
+Css: span.sout {text-decoration: line-through }
+Css: span.xout {text-decoration: line-through }
+Css: span.uwave {text-decoration:underline }
+File: img/three.png
 --- characters ---
 Font("cmr","7","7","100")
-Font("rm-lmr","12","12","100")
-Font("rm-lmr","12","12","120")
-Font("rm-lmr","17","17","120")
-Font("rm-lmri","12","12","100")
 Font("rm-lmr","10","10","109")
-Font("rm-lmbxi","10","10","109")
-Font("rm-lmri","10","10","109")
-Font("cmr","8","8","100")
+Font("rm-lmr","12","12","100")
+Font("rm-lmr","17","17","100")
+Font("cmr","6","6","100")
 Font("rm-lmr","10","10","100")
+Font("rm-lmbx","10","10","100")
 Font("rm-lmri","10","10","100")
+Font("rm-lmbxi","10","10","100")
+Font("rm-lmr","9","9","100")
+Font("rm-lmri","9","9","100")

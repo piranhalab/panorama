@@ -36,17 +36,19 @@ Para compilar el documento en pdf
 
 `pdflatex -halt-on-error -output-directory out panorama.tex`
 
-Para compilar el texto como html 
+Para compilar el texto como html sin problemas de caracteres en español 
 
 `make4ht -x panorama.tex`
 
+Agregar el estilo manualmente 
+
 ## Por hacer
 
-- [ ] Acentos y caracteres especiales con htlatex. 
+- [x] Acentos y caracteres especiales con htlatex. 
 - [ ] Pasar de html a texto plano para compartir en algún lado.
 - [ ] Escribirle a lxs de ecosistemas.
 - [ ] Descripciones menos genéricas para las piezas. 
-- [ ] Estilo de citas, notas al pie y referencias.
+- [x] Estilo de citas, notas al pie y referencias.
 - [x] Convenciones de citación para repositorios. Equipo código y texto general 
 - [x] Decidir si en notas van los sitios activados y en referencias el repositorio 
 - [ ] Incorporar automation y actualización bibtex
@@ -54,7 +56,11 @@ Para compilar el texto como html
 - [x] ¿Nota explicativa para cada módulo de software? 
 - [ ] Mediciones y materiales que comprueben la hipótesis 
 - [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio 
-- [ ] Pruebas de compilación para una versión en línea. 
+- [x] Pruebas de compilación para una versión en línea. 
+- [ ] Fundir/desmantelar discusión con los casos de estudio.
+- [ ] Recopilar recursos multimedia
+- [ ] Ajustar imágenes para la versión web
+- [ ] Automatizar la incorporación del estilo 
 
 ## Propuestas
 
