@@ -212,13 +212,66 @@ el
 )
 \@endanenote 
 \@doanenote {17}
+macro:->O
+Ludificación,
+del
+inglés
+\textit
+{gamification}.
+Para
+\cite
+{gamificacion}
+existe
+la
+gamificación
+intencional
+y
+emergente.
+El
+presente
+artículo
+hace
+referencia
+a
+la
+segunda:
+``la
+gamificación
+se
+puede
+definir
+como
+un
+proceso
+cultural
+gradual
+y
+emergente,
+aunque
+no
+intencional,
+derivada
+del
+compromiso
+cada
+vez
+más
+generalizado
+con
+los
+juegos
+e
+interacciones
+lúdicas."
+\@endanenote 
+\@doanenote {18}
 macro:->\url
 {https://www.khronos.org/webgl/}(Consultado
 el
 \today
 )
 \@endanenote 
-\@doanenote {18}
+\@doanenote {19}
 macro:->``La
 API
 de
@@ -267,7 +320,7 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {19}
+\@doanenote {20}
 macro:->``WebAssembly
 es
 un
@@ -306,7 +359,7 @@ el
 )
 
 \@endanenote 
-\@doanenote {20}
+\@doanenote {21}
 macro:->``El
 término
 cyberespacio
@@ -343,7 +396,7 @@ computadora''
 \citep
 {cyberspace}
 \@endanenote 
-\@doanenote {21}
+\@doanenote {22}
 macro:->``En
 \textit
 {Web
@@ -399,7 +452,7 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {22}
+\@doanenote {23}
 macro:->``WebSockets
 es
 una
@@ -428,7 +481,7 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {23}
+\@doanenote {24}
 macro:->``Nginx
 es
 un
@@ -445,7 +498,7 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {24}
+\@doanenote {25}
 macro:->``FFmpeg
 es
 el
@@ -482,43 +535,9 @@ el
 \today
 )
 \@endanenote 
-\@doanenote {25}
+\@doanenote {26}
 macro:->\url
 {https://twitter.com/notasausencia}
-(Consultado
-el
-\today
-)
-\@endanenote 
-\@doanenote {26}
-macro:->``\textit
-{The
-Wayback
-Machine}
-es
-una
-iniciative
-de
-Internet
-Archive
-para
-construir
-una
-librería
-digital
-de
-sitios
-de
-Internet
-y
-otros
-artefactos
-culturales
-en
-formato
-digital''.
-\url
-{http://web.archive.org/}
 (Consultado
 el
 \today
@@ -610,59 +629,6 @@ pp
 190
 \@endanenote 
 \@doanenote {29}
-macro:->O
-Ludificación,
-del
-inglés
-\textit
-{gamification}.
-Para
-\cite
-{gamificacion}
-existe
-la
-gamificación
-intencional
-y
-emergente.
-El
-presente
-artículo
-hace
-referencia
-a
-la
-segunda:
-``la
-gamificación
-se
-puede
-definir
-como
-un
-proceso
-cultural
-gradual
-y
-emergente,
-aunque
-no
-intencional,
-derivada
-del
-compromiso
-cada
-vez
-más
-generalizado
-con
-los
-juegos
-e
-interacciones
-lúdicas."
-\@endanenote 
-\@doanenote {30}
 macro:->\textit
 {P2P}
 (par
@@ -744,4 +710,38 @@ entidades
 intermediarias."
 \citep
 {p2p}
+\@endanenote 
+\@doanenote {30}
+macro:->``\textit
+{The
+Wayback
+Machine}
+es
+una
+iniciative
+de
+Internet
+Archive
+para
+construir
+una
+librería
+digital
+de
+sitios
+de
+Internet
+y
+otros
+artefactos
+culturales
+en
+formato
+digital''.
+\url
+{http://web.archive.org/}
+(Consultado
+el
+\today
+)
 \@endanenote 

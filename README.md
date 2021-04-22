@@ -20,7 +20,6 @@ El presente artículo describe *Panorama*, un conjunto de módulos de código y 
 - **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
 - **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
 - **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
-- **Discusión.-** Como los resultados se vinculan con las reflexiones y perspectivas externas al artículo. 
 - **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 - **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
 - **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
@@ -57,10 +56,10 @@ Agregar el estilo manualmente
 - [ ] Mediciones y materiales que comprueben la hipótesis 
 - [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio 
 - [x] Pruebas de compilación para una versión en línea. 
-- [ ] Fundir/desmantelar discusión con los casos de estudio.
+- [x] Fundir/desmantelar discusión con los casos de estudio.
 - [ ] Recopilar recursos multimedia
 - [ ] Ajustar imágenes para la versión web
-- [ ] Automatizar la incorporación del estilo 
+- [ ] Automatizar la incorporación del estilo para HTML
 
 ## Propuestas
 
