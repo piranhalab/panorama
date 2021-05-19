@@ -41,14 +41,15 @@ Para compilar el texto como html sin problemas de caracteres en español
 
 Agregar el estilo manualmente 
 
+Para pasar de html a odt y compartirlo amigablemente
+
+`pandoc panorama.html -o panorama.odt`
+
 ## Por hacer
 
-- [ ] Pasar de html a texto plano para compartir en algún lado.
-- [ ] Escribirle a lxs de ecosistemas.
-- [ ] Descripciones menos genéricas para las piezas.    
+- [ ] Hacer algo con la información que ya no cupo    
 - [ ] Cuestionario de Pruebas Proféticas como un anexo en el repositorio  
 - [ ] Recopilar recursos multimedia
-- [ ] Fundir casos 
 
 ## Propuestas
 
