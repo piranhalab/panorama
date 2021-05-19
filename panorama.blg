@@ -73,45 +73,45 @@ You're missing a field name---line 176 of file bib/panBib.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in p2p
-You've used 18 entries,
+You've used 19 entries,
             1977 wiz_defined-function locations,
-            575 strings with 6041 characters,
-and the built_in function-call counts, 5694 in all, are:
-= -- 582
-> -- 164
-< -- 21
-+ -- 58
-- -- 48
-* -- 364
-:= -- 1029
-add.period$ -- 58
-call.type$ -- 18
-change.case$ -- 110
-chr.to.int$ -- 16
-cite$ -- 19
-duplicate$ -- 256
-empty$ -- 405
-format.name$ -- 69
-if$ -- 1140
+            582 strings with 6146 characters,
+and the built_in function-call counts, 6104 in all, are:
+= -- 624
+> -- 171
+< -- 23
++ -- 60
+- -- 50
+* -- 389
+:= -- 1094
+add.period$ -- 62
+call.type$ -- 19
+change.case$ -- 116
+chr.to.int$ -- 17
+cite$ -- 20
+duplicate$ -- 279
+empty$ -- 443
+format.name$ -- 72
+if$ -- 1234
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 93
-num.names$ -- 60
-pop$ -- 89
+missing$ -- 10
+newline$ -- 98
+num.names$ -- 63
+pop$ -- 97
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 118
 quote$ -- 0
-skip$ -- 216
+skip$ -- 232
 stack$ -- 0
-substring$ -- 328
-swap$ -- 40
-text.length$ -- 4
+substring$ -- 352
+swap$ -- 46
+text.length$ -- 5
 text.prefix$ -- 4
 top$ -- 0
-type$ -- 104
+type$ -- 110
 warning$ -- 1
-while$ -- 47
+while$ -- 51
 width$ -- 0
-write$ -- 226
+write$ -- 240
 (There were 14 error messages)

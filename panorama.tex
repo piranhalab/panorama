@@ -2,7 +2,7 @@
 
 % Un cuarto propio conectado. Remedios Zafra > Pdf revisar para referencias 
 
-\documentclass[11pt,letterpaper]{article}
+\documentclass[11pt,letterpaper, twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{endnotes}
@@ -43,6 +43,8 @@
   Panorama \\
   \large Escritura de espacios libres e inmersivos para el performance audiovisual}
 
+% Las siguientes líneas habilitan las palabras clave
+
 \providecommand{\keywords}[1]
 {
   \small	
@@ -55,13 +57,15 @@
 
 \maketitle
 
-\begin{abstract}
-  \input{sections/abstract}
-\end{abstract}
+%\begin{abstract}
+%  \input{sections/abstract}
+%\end{abstract}
 
-\input{sections/keywords}
+%\input{sections/keywords}
 
+% Pensar en sustituir el resumen con una introducción 
 
+\input{sections/intro}
 \input{sections/ecosistema} % Introducción, antecedentes, proyectos y tecnologías similares.
 \input{sections/escritura} % Elementos del diseño de Panorama. Enunciación y descripción breve de las tecnologías implicadas.
 \input{sections/notasypruebas} % Primera parte que describe resultados. Casos elegidos: Notas de Ausencia y Pruebas proféticas
