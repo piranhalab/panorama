@@ -17,11 +17,9 @@ De manera complementaria, introduce discusiones que surgieron durante la activac
 ## Estructura
 
 - **Resumen**
-- **Ecosistema.-** Introducción, antecedentes, proyectos y tecnologías similares.
+- **Ecosistema.-** Antecedentes, proyectos y tecnologías similares.
 - **Diseño y Escritura.-** Elementos del diseño de *Panorama*. Enunciación y descripción breve de las tecnologías implicadas.
-- **Notas y Pruebas.-** Primera parte que describe resultados. Casos elegidos: *Notas de Ausencia* y *Pruebas proféticas*
-- **EDGES y Contemplación.-** Segunda parte que describe resultados. Casos elegidos: *EDGES* y *La contemplación del Fin del Mundo*
-- **Three y 4nt1.-** Tercera parte que describe resultados. Casos elegidos: *threecln* (en proceso) y *4nt1* (en proceso) 
+- **Espacios y casos.-** *Notas de Ausencias*, *Pruebas proféticas* y *La Contemplación del Fin del Mundo*
 - **Conclusiones.-** ¿Se cumplió la premisa/hipótesis descrita en Diseño y Escritura? ¿Qué otras cosas surgieron?
 - **Notas.-** El artículo usa notas al final del texto. Aquí aparecen hipervínculos y conceptos de apoyo. 
 - **Referencias.-** Referencias bibliográficas y repositorios en Git como referencias en la web. 
@@ -41,7 +39,9 @@ Para compilar el texto como html sin problemas de caracteres en español
 
 `make4ht -x panorama.tex`
 
-Agregar el estilo manualmente 
+Agregar el estilo manualmente y cambiar el nombre al archivo resultante.
+
+`mv panorama.html index.html`
 
 Para pasar de html a odt y compartirlo amigablemente
 
