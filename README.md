@@ -4,7 +4,7 @@ Escritura de espacios libres e inmersivos para el performance audiovisual.
 
 Marianne Teixido, Dorian Sotomayor y Emilio Ocelotl 
 
-[Texto Completo](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
+[Texto completo actualizado](https://github.com/piranhalab/panoramaArticulo/blob/main/panorama.pdf)
 
 ### Resumen
 
@@ -54,9 +54,24 @@ Para pasar de html a odt y compartirlo amigablemente
 - [ ] Recopilar recursos multimedia
 - [ ] Memoria del Concierto > Distintos recursos
 
-## Propuestas
+## Pendientes versión final
 
-- Mini taller de latex. 
+- [ ] Cambiar a Overleaf 
+- [ ] Releer el texto 
+- [ ] Buscar imágenes ( todas las que se puedan )
+- [ ] Expandir descripciones
+- [ ] Reescribir algunas partes buscando la integración estética política y tecnológica
+- [ ] Convención en la escritura ( lenguaje incluyente )
+- [ ] Si se puede › Reescribir jerga tecnológica 
+- [ ] Checar si hay espacio y si es pertinente agregar imágenes de proyectos similares
+- [ ] Agregar discusión sobre metaverso
+
+Pendientes futuros:
+
+[  ] Traducir al inglés y moverlo en otro lado 
+[  ] Mover una variación en revistas en español ( CMMAS, Festival de la Imagen ) 
+
+
 
 ## Referencias
 
