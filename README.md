@@ -56,16 +56,19 @@ Para pasar de html a odt y compartirlo amigablemente
 
 ## Pendientes versión final
 
-- [ ] Cambiar a Overleaf 
-- [ ] Releer el texto 
-- [ ] Buscar imágenes ( todas las que se puedan )
+- [x] Cambiar a Overleaf 
+- [x] Releer el texto 
+- [x] Buscar imágenes ( todas las que se puedan )
 - [ ] Expandir descripciones
-- [ ] Reescribir algunas partes buscando la integración estética política y tecnológica
+- [x] Reescribir algunas partes buscando la integración estética política y tecnológica
 - [ ] Convención en la escritura ( lenguaje incluyente )
-- [ ] Si se puede › Reescribir jerga tecnológica 
+- [x] Si se puede › Reescribir jerga tecnológica 
 - [ ] Checar si hay espacio y si es pertinente agregar imágenes de proyectos similares
 - [ ] Agregar discusión sobre metaverso
-
+- [ ] Condicional para el corte del director
+- [ ] Condicional para imágenes en blanco y negro 
+- [ ] Imágenes de mejor calidad 
+ 
 Pendientes futuros:
 
 [  ] Traducir al inglés y moverlo en otro lado 
