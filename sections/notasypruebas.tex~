@@ -1,32 +1,70 @@
 
-\section*{Notas y Pruebas} % Espacio para hablar del proyecto de maestría de Marianne, 
+\section*{Espacios y casos} % Espacio para hablar del proyecto de maestría de Marianne, 
 
+El presente texto toma una selección de eventos como casos de estudio: \textit{Notas de Ausencia}\footnote{\url{https://notasdeausencia.cc} (Consultado el \today)} de Marianne Teixido  y \textit{La Contemplación del Fin del Mundo}\footnote{\url{https://edges.piranhalab.cc} (Consultado el \today)} de Dorian Sotomayor. Complementamos la descripción con un evento adicionalmente seleccionado para describir la escritura de \textit{Panorama}: \textit{Pruebas Proféticas}\footnote{La documentación audiovisual del evento se encuentra en: \url{https://www.youtube.com/watch?v=VP2T13l7-CQ} (Consultado el \today)}. % Esto es provisional, por lo menos son los que referencio más abajo
 
-Notas de Ausencia y Pruebas proféticas fueron los preliminares del proyecto. 
+\begin{figure}
+  \includegraphics[width=\textwidth]{img/notas02.png}
+  \caption{Primera escena. Notas de Ausencia - Marianne Teixido}
+  \label{fig:notas1}
+\end{figure}
 
 %% Escribir lo que sigue de alguna otra manera. 
 
-Notas es un ensayo generativo en la web. Utiliza el texto dato que por medio de la computadora como agente resignificante, deconstruye estructuras discursivas para resemantizar la narrativa sobre las desapariciones de mujeres en México y América Latina.
+\emph{Notas de Ausencia} (Figuras \ref{fig:notas1}, \ref{fig:notas2} y \ref{fig:notas3}) es un ensayo generativo en la web. Utiliza texto-dato procesado por la computadora como agente resignificante que deconstruye estructuras discursivas para resemantizar la narrativa sobre las desapariciones de mujeres en México y América Latina.
 
-El tiempo y espacio virtual conforman una partitura para la memoria y la denuncia. La narrativa, semi autónoma, argumenta a partir de textos tomados de tweets, poemarios, libros y artículos feministas que explican desde la teoría las desapariciones forzadas, el feminicidio y la violencia de género. Lo cuales están presente como texto, imagen y sonido.
+El tiempo y espacio virtual conforman una partitura para la memoria y la denuncia. La narrativa, semi-autónoma, argumenta a partir de textos tomados de tweets, poemarios, libros y artículos feministas que explican desde la teoría las desapariciones forzadas, el feminicidio y la violencia de género. Estos elementos están presentes como texto, imagen y sonido en un espacio tridimensional diseñado a manera de memorial.
 
-La narrativa de la pieza está articulada mediante la intervención de dos bots. El primero comparte tuits que localiza con hashtag como: \#MéxicoFeminicida, \#MadresEnBúsqueda, \#ViolenciadeGenero, \#NiUnaMenos, entre otros.\footnote{Liga en Twitter al bot: \url{https://twitter.com/notasausencia}} Así como con un bot de generación de texto automático.
+\begin{figure}
+  \includegraphics[width=\textwidth]{img/notas03.png}
+  \caption{Segunda escena. Notas de Ausencia - Marianne Teixido}
+\label{fig:notas2}
+\end{figure}
 
-La experiencia con Notas abrió camino para Panorama. Esta exploración permitió a Marianne Teixido en colaboración con \textit{PiranhaLab} encontrar en \textit{Three.js} la solución para implementar espacios tridimensionales como la parte visible de piezas y espacios.  
 
-Pruebas Proféticas fue el evento piloto que implementó por primera vez dos tipos de tecnologías específicas: exploración multijugador y \textit{streaming personalizado}.
+La narrativa de la pieza está articulada mediante la intervención de dos bots que interactúan en Twitter. El primero realiza una búsqueda de tuits a partir de un filtro de palabras clave escritas como \emph{hashtags} como: \#MéxicoFeminicida, \#MadresEnBúsqueda, \#ViolenciadeGenero, \#NiUnaMenos, entre otros.\footnote{Actualmente el bot se encuentra activo: \url{https://twitter.com/notasausencia} (Consultado el \today)} Posteriormente, recomparte el tuit que contiene alguno de los \textit{hashtags} de la base de datos previamente delimitada. El segundo bot retoma los textos de los tuits seleccionados y los remezcla para generar un segundo texto automático por medio de cadenas de Markov. 
 
-La primera consistió en un incipiente modo de exploración co-presencial que guardaba una relación entre la posición y la rotación de la cámara, controlada por medio del ratón y el teclado de la computadora. Para el control se utlizaron las teclas WASD y flechas siguiendo la convención de la cámara de videojuegos en primera persona. La información de posición y rotación fueron compartidas y podían visualizar el movimiento de avatares que representaban a los asistentes en el espacio digital. 
+Esta pieza se realizó en el contexto de la exhibición en línea \textit{Creaciones con Algoritmos: Visualización y Sonificación de Datos} del Centro de Cultura Digital en abril de 2020. Si bien su estreno oficial fue en video, el planeamiento original contempló la creación de un espacio virtual en la web que pudiera visualizar en tiempo real la información viva proveniente de los tweets.
 
-La transmisión de audio y video fue un aspecto que el planteamiento de \textit{PiranhaLab} buscó solucionar. Es posible utilizar servicios gratuitos o de paga para la transmisión de datos audiovisuales, sin embargo, en menor o mayor medida, el flujo audiovisual generado es analizado y en caso de que se detecte algún extacto de audio proveniente con derechos de autor, el stream es silenciado. Este artículo no busca centrarse en discusiones sobre derechos de autor sino en la usabilidad de un streaming audiovisual. 
+Dos características definieron el diseño de la pieza: ubicación de la pieza en un espacio tridimensional y la interacción y visualización de la información proporcionada por los bots. Para la realización, el proyecto retomó módulos iniciales de \textit{Panorama} y partió del uso de Three.js como un entorno de trabajo que pudiera conectar los dos momentos de la pieza antes descritos. Con este antecedente, el equipo de trabajo generó condiciones técnicas que permitieron la relativa autonomía del servidor requerido para mantener la pieza en línea, que al momento de escritura, permanece activa.
 
-La concatenación de software estuvo delimitado por la experiencia de usuarios hiptéticos. Esto nos llevo a plantear los posibles agentes que se involucraban con la experiencia inmersiva. Como la propuesta partió de eventos performáticos tipo concierto, la figura de intérpretes/artistas fue central. El mantenimiento del flujo performático expresado a partir de una transmisión de audio y video delimitó el aspecto técnico y estético del espacio: El primer objetivo a resolver fue el streaming que pudiera ser estable, eficiente, compatible con la convención de transmisión personalizada ejecutada con programas de interfaz como OBS.
+\begin{figure}
+  \includegraphics[width=\textwidth]{img/notas04.png}
+  \caption{Tercera escena. Notas de Ausencia - Marianne Teixido}
+  \label{fig:notas3}
 
-El segundo tipo de agente fue el público que navegaba en el espacio y que realizaba gestos corporales virtuales sencillos: posición y rotación. 
+\end{figure}
 
-Un tercer tipo de agente se involucró con los aspectos fuera del escenario, la lógistica de la transmisión y el mantenimiento del sistema en tiempo real visibilizó la figura del \textit{staff}. En este sentido la labor tecnológica virtual del equipo de \textit{PiranhaLab} fue cercana a la logística y a la división del trabajo de un escenario para conciertos presenciales. 
+%\begin{figure}[H]
+%  \includegraphics[width=\textwidth]{img/pruebasprofeticas.jpg}
+%  \caption{Pruebas proféticas. Visuales: Flor de Fuego}
+%\end{figure}
 
-El concepto curatorial de EDGES estuvo definido por Marianne Teixido y guardó una estrecha relación con los planteamientos de Notas de Ausencia.  % Giro hacia Contemplación 
+%La transmisión de audio y video fue un aspecto que el planteamiento de \textit{PiranhaLab} buscó solucionar. Es posible utilizar servicios gratuitos o de paga para la transmisión de datos audiovisuales, sin embargo, en menor o mayor medida, el flujo audiovisual generado es analizado y en caso de que se detecte algún extacto de audio proveniente con derechos de autor, el stream es silenciado. Este artículo no busca centrarse en discusiones sobre derechos de autor sino en la usabilidad de un streaming audiovisual. 
+
+ %\color{Fuchsia}
+
+%\begin{figure}
+%  \includegraphics[width=\textwidth]{img/pruebas3.png}
+%  \caption{Estudio de espacio y retroalimentación para % Pruebas Proféticas}
+%\end{figure}
+
+Como un segundo caso, \textit{Pruebas Proféticas} (Figuras \ref{fig:pruebas1} y \ref{fig:pruebas2}) fue el evento piloto que implementó por primera vez dos tipos de tecnologías específicas: exploración multijugador y \textit{streaming} personalizado. La experiencia con \textit{Pruebas Proféticas} abrió camino para el diseño de la edición 2020 de EDGES. Este proceso permitió reflexionar en torno a funcionalidad y experimentación como dos posibilidadeas de un continuo para la escritura de software en un marco artístico y performático. EDGES como plataforma explicita el papel experimental de los actos, la plataforma tecnológica también podría ser experimental e incluso podría desdibujarse en pos de la integración performance-espacio.
+
+
+%\begin{figure}
+%  \includegraphics[width=\textwidth]{img/pruebas.jpg}
+%  \caption{Captura de pantalla de Pruebas Proféticas}
+% \end{figure}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{img/pruebas4.png}
+  \caption{c}
+    \label{fig:pruebas1}
+
+\end{figure}
+
+El concepto curatorial de \emph{EDGES} estuvo definido por Marianne Teixido y guardó una estrecha relación con los planteamientos de \textit{Notas de Ausencia}. Considera las posibilidades de creación planteadas desde el feminismo interseccional, perspectiva desde la cual se problematiza el uso de la tecnología teniendo en consideración las condiciones de raza, género y clase. También es posible articular práctica y curaduría con una crítica a las herramientas hegemónicas previamente dadas para apuntar a la creación de herramientas personalizadas y críticas, construidas desde dinámicas de organización colectiva y conocimientos situados. \emph{EDGES} 2020 como propuesta curatorial contempla la participación en su mayoría de mujeres y personas no binarias. Las obras dialogan con las hibridaciones e-corporales en espacios virtuales ficcionados desde las subjetividades feministas y transfeministas que toman internet como territorio y espacio de intercambio cultural.
 
 \iffalse
 - Uso de espacios tridimensionales 
@@ -36,5 +74,14 @@ El concepto curatorial de EDGES estuvo definido por Marianne Teixido y guardó u
 - cyberfeminisimo
 - audio virtualmente posicionado 
 - streaming de audio y video sin plataformas privativas - decisiones de optimización
+- Según yo aquí usamos icecast y liquid soap 
 - Inicios de multiplayer
 \fi
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{img/pruebas2.png}
+  \caption{Pruebas Proféticas.}
+    \label{fig:pruebas2}
+
+\end{figure}
+% \color{black}
